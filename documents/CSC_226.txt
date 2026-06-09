@@ -1,0 +1,60 @@
+--- DOCUMENT METADATA ---
+course: CSC 226 - Discrete Mathematics for Computer Scientists
+university: North Carolina State University (NCSU)
+department: Computer Science (CSC)
+--- END METADATA ---
+
+
+=== COMMENT 1 ===
+The first unit in CSC 226 is the hardest for sure. Most people don't do well on it — be prepared to not like your grade. The units after are a lot easier. If the policy is still in place, your score on the unit 1 part of the final will replace the test score, and the final tends to be very similar to the test. Review the tests well for the final and you'll be good. One student got a 67 on the first test but a 97 on the final and ended with an A.
+=== END COMMENT 1 ===
+
+
+=== COMMENT 2 ===
+For studying CSC 226 exams, the main thing is doing practice problems. Also focus very closely on the wording of the questions — one key word can completely change how you approach the problem. The practice test tends to be very similar to the actual test, but don't count on it.
+=== END COMMENT 2 ===
+
+
+=== COMMENT 3 ===
+The first CSC 226 exam was the only CS exam one student failed. The other two exams are pretty easy.
+=== END COMMENT 3 ===
+
+
+=== COMMENT 4 ===
+CSC 226 wasn't really bad when taken with Dr. Card. Just make sure you practice really well and go over the lecture notes again.
+=== END COMMENT 4 ===
+
+
+=== COMMENT 5 ===
+CSC 226 is pretty tough. It can be hard because most people have not had exposure to anything like the material before. It really depends on the professor how hard they make it. One class's first test was very difficult, but the professor realized and lightened up the rest of the semester. Look up the grade distribution for your specific professor — it should give you a good idea of what to expect.
+=== END COMMENT 5 ===
+
+
+=== COMMENT 6 ===
+CSC 226 wasn't super hard, but the course is challenging at times because of the amount of information they throw at you and expect you to know how to apply on exams, which are not open note. The concepts themselves are not anything out of the ordinary — anyone can understand them after properly doing some examples. Best advice: go to class, do the homeworks, and take the practice tests. One student got an A+ from doing this. The hardest topic personally was counting.
+=== END COMMENT 6 ===
+
+
+=== COMMENT 7 ===
+The best way to prepare for CSC 226 before the semester starts: search "barnes discrete math" on YouTube. She is a professor at NCSU who teaches 226. Her full lecture playlist follows the 226 syllabus exactly. Watch them all and take notes and the class will be way less work when the semester starts.
+=== END COMMENT 7 ===
+
+
+=== COMMENT 8 ===
+For CSC 226 prep, Trefor Bazett on YouTube is really helpful for Discrete Math. The combinatorics is usually easy but proofs can get tricky. Put in the effort — CSC 333 builds up on 226 considerably.
+=== END COMMENT 8 ===
+
+
+=== COMMENT 9 ===
+When taking CSC 226, the review sessions basically covered exactly what to expect on the test. That may have changed since then.
+=== END COMMENT 9 ===
+
+
+=== COMMENT 10 ===
+To prepare for CSC 226, look into the basics of logic and proofing before the semester starts, but the class really isn't too hard.
+=== END COMMENT 10 ===
+
+
+=== COMMENT 11 ===
+Some sections of CSC 226 allowed you to get an A without taking the final, as long as you did your homework. Most classmates didn't go to most lectures and basically all ended up with A's. The difficulty and grading policies vary significantly by professor and semester though.
+=== END COMMENT 11 ===

@@ -1,0 +1,90 @@
+--- DOCUMENT METADATA ---
+course: CSC 116 - Introduction to Computing: Java
+university: North Carolina State University (NCSU)
+department: Computer Science (CSC)
+--- END METADATA ---
+
+
+=== COMMENT 1 ===
+If you have a mind for programming, you'll be absolutely fine in CSC 116. If you don't, you're gonna suffer. And that's true regardless of which professor you have.
+=== END COMMENT 1 ===
+
+
+=== COMMENT 2 ===
+A lot of learning in CSC 116 will happen online regardless of which section you take. The internet is literally built by programmers and a lot of them write down what they're doing. If online doesn't suit your learning style, go for one of the in-person instructors. But you'll definitely be doing some googling before it's over either way. As for lots of work and hard tests: welcome to any engineering major. Engineering is a hard field. There's some paths that are less hard, but none of them can really be described as easy.
+=== END COMMENT 2 ===
+
+
+=== COMMENT 3 ===
+I would go with Schmidt for CSC 116. She goes over the foundations well and if you do well in her class, you're set up very well for CSC 216. Balik is definitely the easiest option, however, you'll lack some of the fundamentals and have holes in your knowledge.
+=== END COMMENT 3 ===
+
+
+=== COMMENT 4 ===
+When I hear "more work" I think "more practice." When it comes to programming, the more practice the better. Schmidt has a ton of videos that you can watch as much and as often as you like, instead of trying to remember what was said during lecture.
+=== END COMMENT 4 ===
+
+
+=== COMMENT 5 ===
+I took Schmidt last semester and I didn't think the tests were too hard. It being online doesn't really affect how well you learn code either — I felt well prepared for CSC 216. There is a decent amount of work though.
+=== END COMMENT 5 ===
+
+
+=== COMMENT 6 ===
+I've had both Balik and Schmidt. I don't like either, but I prefer Schmidt. They both speed through PowerPoints, but at least she is slower.
+=== END COMMENT 6 ===
+
+
+=== COMMENT 7 ===
+I would avoid Schmidt if you have little programming experience. Although, Schmidt did prepare me well for CSC 216 which felt much easier in comparison. I came into CSC 116 with little coding experience.
+=== END COMMENT 7 ===
+
+
+=== COMMENT 8 ===
+Those first few comp sci classes can always be challenging if you haven't seen it before, because most professors aren't great at the very basics and some people in your class will already know them from high school or early college. You just have to put some work in to understand the fundamentals.
+=== END COMMENT 8 ===
+
+
+=== COMMENT 9 ===
+CSC 116 is intended as a beginner programming class, but it is difficult if you don't study and put the work in. It's oriented towards potential CSC majors so it will be more difficult than CSC 110, but certainly doable.
+=== END COMMENT 9 ===
+
+
+=== COMMENT 10 ===
+CSC 116 is meant to teach you from the ground up. It should be manageable with no coding experience, just make sure to study and do the work.
+=== END COMMENT 10 ===
+
+
+=== COMMENT 11 ===
+If you go to office hours, the TAs will tell you how to do everything in CSC 116. That's not so true for the later CS classes.
+=== END COMMENT 11 ===
+
+
+=== COMMENT 12 ===
+You'll be fine in CSC 116 — it's geared to new programmers with no experience. Just showing up to lecture, paying attention, and staying ahead of work is enough. It does take some hours weekly to stay ahead, but it's just work. CSC teaching resources are pretty good, especially for 116.
+=== END COMMENT 12 ===
+
+
+=== COMMENT 13 ===
+To succeed in CSC 116 with Dr. Schmidt: read the textbook — exams require full knowledge of Java principles and her videos are essentially just summaries of the textbook reading. Do as many Practice It problems as possible for tested material. Start projects as soon as they are released, don't procrastinate — Project 4 was the most time consuming. For labs, figure out the algorithm and design first and then program. Doing it in reverse leads to multiple bugs rooted in faulty logic. Get used to writing out on paper first how you would solve the problem. Go over the textbook along with Practice It before the semester starts — reading just 15 pages a day will finish it before classes begin.
+=== END COMMENT 13 ===
+
+
+=== COMMENT 14 ===
+The best advice for CSC 116 and 216: start projects as early as possible. You never know what you'll run into and whether you'll need to wait on office hours or Piazza for a hint. If you wait until the last minute, everything must go right for you to finish on time.
+=== END COMMENT 14 ===
+
+
+=== COMMENT 15 ===
+The last project in CSC 116 was an absolute beast. Every minute of free time I had was working on it for about a week. The other projects were manageable.
+=== END COMMENT 15 ===
+
+
+=== COMMENT 16 ===
+If you have some coding experience, CSC 116 should be very easy. If you don't have any experience, it might take a few weeks or a month to get comfortable. For those who want to prepare, utilize the free LinkedIn Learning for students.
+=== END COMMENT 16 ===
+
+
+=== COMMENT 17 ===
+Unlike high school, you don't get to skim through CSC 116 by having a basic understanding of coding logic. You need to read the textbook to answer the more Java-specific questions on tests. If you procrastinate on projects you're in trouble — a bad project grade is hard to recover from. Treat projects as if they were the class final. You should never plan on finishing them the night before they are due because you will run into some last-minute problem that takes hours to fix, as is the nature of programming.
+=== END COMMENT 17 ===

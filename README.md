@@ -38,8 +38,8 @@ Rate My Professors pages, Reddit threads, and word-of-mouth, with no single sear
 | 5 | Reddit Thread - NCSU for CS | Student Discussion | https://www.reddit.com/r/NCSU/comments/1pzwwe1/ncsu_for_csc_or_unc/, https://www.reddit.com/r/NCSU/comments/13l019t/does_anybody_have_some_experience_with_ncsu/, https://www.reddit.com/r/NCSU/comments/1su9yc8/how_is_compsci_in_ncsu/, https://www.reddit.com/r/NCSU/comments/p0206l/how_good_is_the_cs_program_at_nc_state/ |
 | 6 | Reddit Thread - CSC 116 | Student Discussion | https://www.reddit.com/r/NCSU/comments/qtgusd/professors_for_csc_116/, https://www.reddit.com/r/NCSU/comments/17rj6nu/is_csc_116_a_difficult_class_if_you_have_limited/, https://www.reddit.com/r/NCSU/comments/hmi297/csc_116/ |
 | 7 | Reddit Thread - CSC 216 | Student Discussion | https://www.reddit.com/r/NCSU/comments/1ru4cqg/csc_216_major_projects/, https://www.reddit.com/r/NCSU/comments/95lnv1/how_heavy_is_the_workload_for_csc_216/, https://www.reddit.com/r/NCSU/comments/eeeuh0/difficulty_of_csc_216/ |
-| 8 | Reddit Thread - CSC 226 | Student Discussion | https://www.reddit.com/r/NCSU/comments/15yniwm/csc_226/, https://www.reddit.com/r/NCSU/comments/1nklgtm/how_hard_are_the_csc226_exams/ |
-| 9 | Reddit Thread - CSC 326 | Student Discussion | https://www.reddit.com/r/NCSU/comments/ebyanw/csc_majors_what_makes_csc326_software_engineering/ |
+| 8 | Reddit Thread - CSC 226 | Student Discussion | https://www.reddit.com/r/NCSU/comments/15yniwm/csc_226/, https://www.reddit.com/r/NCSU/comments/1nklgtm/how_hard_are_the_csc226_exams/, https://www.reddit.com/r/NCSU/comments/kc2la1/csc_226/ |
+| 9 | Reddit Thread - CSC 326 | Student Discussion | https://www.reddit.com/r/NCSU/comments/ebyanw/csc_majors_what_makes_csc326_software_engineering/, https://www.reddit.com/r/NCSU/comments/onnz1l/question_about_csc326/, https://www.reddit.com/r/NCSU/comments/8fsymq/csc_326_final/ |
 | 10 | Reddit Thread - CSC 520 | Student Discussion | https://www.reddit.com/r/NCSU/comments/k38f2u/csc_520ai_1_with_dr_bita_akram/, https://www.reddit.com/r/NCSU/comments/k9xc41/has_anyone_taken_csc_520_artificial_intelligence/ |
 
 ---

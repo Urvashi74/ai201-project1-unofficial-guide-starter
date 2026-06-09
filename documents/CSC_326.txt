@@ -1,0 +1,55 @@
+--- DOCUMENT METADATA ---
+course: CSC 326 - Software Engineering
+university: North Carolina State University (NCSU)
+department: Computer Science (CSC)
+--- END METADATA ---
+
+
+=== COMMENT 1 ===
+CSC 326 is mostly disliked because of the iTrust project — a codebase that has been used since at least 2006. Groups of 4 have to add features and fix bugs while doing planning, testing, and documentation. The best team's code at the end of the semester gets merged to master. Because the codebase has been worked on by hundreds of students, it can be messy and you feel like you can't make large, meaningful changes in the short time you have. However, it is a realistic look at what real world software engineering can look like — most other classes let you start from scratch, which is rare in the real world.
+=== END COMMENT 1 ===
+
+
+=== COMMENT 2 ===
+The projects in CSC 326 are so different from preceding classes that it will make you feel like you're not doing good work even if you are. In other courses you can complete fully functional projects in weeks for full credit without officially going through the whole process of designing and documenting. In 326 you have to do all of that for a grade. Combined with working in a big group, it can take weeks just to add a tiny piece of functionality and make you feel slow and unproductive.
+=== END COMMENT 2 ===
+
+
+=== COMMENT 3 ===
+CSC 326 attempts to teach what it's like working on a software development team in the real world. You work on the iTrust project that has been used for years with code written by students. Features are broken up among team members, but often the code different individuals write is less than stellar, resulting in a frustrating experience. One teammate would consistently push code that wouldn't compile and claimed he completed features. Then when testing his code before merging, we'd have to wait for him to fix it or fix it ourselves. Combined with people not getting things done on time, it was frustrating. The class is a good idea but it doesn't play out how the real world would where people have dedicated time to work.
+=== END COMMENT 3 ===
+
+
+=== COMMENT 4 ===
+CSC 326 is mostly difficult because there's a lot of work on top of everything else you're taking that semester.
+=== END COMMENT 4 ===
+
+
+=== COMMENT 5 ===
+The one core thing that ensures success in CSC 326: have a good group that you can trust. It is a class with a lot of group work so it's important that your group mates pull their weight and have their code work.
+=== END COMMENT 5 ===
+
+
+=== COMMENT 6 ===
+CSC 326 was enjoyable for someone with Agile internship experience — it felt like a toned-down version of real internship work. What people struggle with is that there is now a separation between front end and back end development, and most people are inexperienced with front end. There is also a lot of new libraries, tools, and frameworks to digest in a short amount of time that differs greatly from the traditional Java you've done in previous courses.
+=== END COMMENT 6 ===
+
+
+=== COMMENT 7 ===
+CSC 326 is an easy A if you do things on time and are willing to lead the team. The tech stack one semester was Spring Boot, Angular, and Cucumber. There are also plenty of extra credit opportunities.
+=== END COMMENT 7 ===
+
+
+=== COMMENT 8 ===
+In CSC 326 the majority of points come from following their very specific processes and GitHub wiki requirements exactly as written. During one project, a group wasn't able to implement any of the requirements but still got an okay grade because they followed all the guidelines closely. A friend got a terrible grade even though their group's code worked flawlessly because they ignored the git guidelines. Follow all the guidelines exactly.
+=== END COMMENT 8 ===
+
+
+=== COMMENT 9 ===
+The actual programming in CSC 326 is a lot more freeform than CSC 216 or 316, where they give you UML or sample code and tell you what methods to write. In 326 they just tell you the features to add to existing software and you have to design all of the backend, UI, and logic yourself.
+=== END COMMENT 9 ===
+
+
+=== COMMENT 10 ===
+For the CSC 326 final exam, review all the software engineering terms, design patterns, and content from the slides and you should be fine. The final is similar to the midterm, just covering the newer material. The majority of the exam is short answer. Even students far from the top of the class didn't struggle with the exam.
+=== END COMMENT 10 ===

@@ -1,0 +1,70 @@
+--- DOCUMENT METADATA ---
+topic: Computer Science Program at NC State University
+university: North Carolina State University (NCSU)
+department: Computer Science (CSC)
+--- END METADATA ---
+
+
+=== COMMENT 1 ===
+Can't go wrong with either one but NCSU CSC is well-known. Not sure about UNC but it has the UNC name to it so enough said.
+=== END COMMENT 1 ===
+
+
+=== COMMENT 2 ===
+UNC is going through much turmoil with the NC GOP legislature. Things are going south in regards to reputation. They are shutting down programs. So far NCSU has not been affected. The engineering program at NCSU is older and more established. The two schools have very different approaches to learning. State is a science school. UNC is a liberal arts school.
+=== END COMMENT 2 ===
+
+
+=== COMMENT 3 ===
+I genuinely believe you can't go wrong with either program. I was in the same boat three years ago and chose NC State just because I wouldn't have to take any gen eds here. My CS friends both here and at UNC are doing well, and I don't personally know of anyone getting denied CS at UNC. CODA here at State is also super easy as long as you have a half decent GPA. I don't think you should put too much weight on the honors program for decision making — I'm in it and the only benefit is some cool campus activities.
+=== END COMMENT 3 ===
+
+
+=== COMMENT 4 ===
+At NCSU you don't start out as a CSC major but instead you're considered an EFY (Engineering First Year), after which you go through the CODA process where you list your top 3 preferences of engineering programs which you may or may not get accepted into. If you have a scholarship for one school and not the other, it'd be hard to not recommend taking the free money. Both are excellent programs and are great stepping stones to get you into the industry.
+=== END COMMENT 4 ===
+
+
+=== COMMENT 5 ===
+If you have that much transfer credit, it's possible you're being admitted as a transfer student and won't need to CODA.
+=== END COMMENT 5 ===
+
+
+=== COMMENT 6 ===
+Early college students are accepted as first-year students, even with their associate's degree. Unless it's more advantageous in admissions criteria to come in as a transfer, but 99% come in as a first year.
+=== END COMMENT 6 ===
+
+
+=== COMMENT 7 ===
+It really depends on what you want. UNC has the stronger reputation as an overall school but it isn't an engineering school — Comp Sci is an Arts degree there. If your goal is to go into the tech industry I would definitely say NC State. I actually toured both Comp Sci departments working for a tech company doing recruiting and went in expecting to like UNC but came out far more impressed with NC State. There are just far more options and opportunities in Comp Sci at NC State and the focus is on practical applications. Companies want people that can do things and not just studied theory. NC State is just much more industry/business focused and they even have companies that have offices next to the Engineering campus. You also have a LOT more Comp Sci alumni from NC State which inevitably means a larger network. The only way I would go into Comp Sci at UNC is if you knew you wanted to go into academia or research.
+=== END COMMENT 7 ===
+
+
+=== COMMENT 8 ===
+Check the prerequisite chain you need to graduate. Even if you go in with an Early College associates, you are not going to be able to graduate from NCSU in CS in 2 years. Engineering has a lot of mandatory prerequisites that will force you to do more or less the full 4 years, even if all your gen eds are covered. CSC does have more credits needed than other degrees as an engineering degree.
+=== END COMMENT 8 ===
+
+
+=== COMMENT 9 ===
+The Computer Science CODA statistics are public. For the 2024-25 cycle, the middle 50% of accepted CSC students had GPAs from 3.43-3.97, meaning 25% were below 3.43. Out of 268 applicants, only 9 were denied (though most applicants are likely already competitive). If you keep your grades up and perform well, acceptance into CSC at NCSU is very likely. UNC tends to emphasize theory, while NCSU focuses more on practical, applied CS. Both universities will prepare you well so it mainly depends on the style of education you want. Note: the CODA stats are likely inflated due to selection bias — students are more likely to list CSC as their first choice only if they believe they are already competitive.
+=== END COMMENT 9 ===
+
+
+=== COMMENT 10 ===
+One big difference is NCSU is a BS and UNC is a BA. CS at NCSU is a lot of hard work. Students spend hours on projects. Most CS majors are not into partying or frat life. You have 2 good options but they are different.
+=== END COMMENT 10 ===
+
+
+=== COMMENT 11 ===
+Comp Sci class of 2020 here. I think State's Comp Sci program is great if you want to get a job and start working soon. State's Comp Sci program leans towards a lot more practicality over theory. You do take a few courses on data structures and algorithms, linear algebra, logic, etc. but many courses are very hands-on. By the time I graduated, I had worked with Java, C, C++, Assembly, Python, HTML/CSS/JavaScript, Groovy, and a few others. During those years, Chapel Hill focused mostly on just Java — they'd have a deeper understanding on a theoretical level, which is good for certain roles and getting a Masters, but State would have a more diverse skill set which made job hunting easier. As far as difficulty, the coursework is pretty intense. Since you're in the school of engineering, you have to meet engineering requirements too on top of all the CSC department requirements. The overall degree is something like 122 credit hours. How difficult internships will be really varies on your skill level and personal projects. I was able to get an internship as a freshman even though I had only taken Intro to Java, but I had done some small projects on the side. Cons: course work can be pretty intense — one semester I was basically alternating between tests and projects every week across my CSC courses. Some professors' teaching styles are very hit or miss. A few professors are professors since they like teaching, but a lot are professors since they're here for research.
+=== END COMMENT 11 ===
+
+
+=== COMMENT 12 ===
+Honestly I've loved the CS program so much. I just suggest staying away from the 5% of professors that make you think you'll never make it.
+=== END COMMENT 12 ===
+
+
+=== COMMENT 13 ===
+I'm a tech recruiter that has spent time at career fairs. NCSU is a well respected school with an aggressive departmental approach in terms of reaching out to companies to get them to hire their students for internships and after graduation. It's solidly in the "next tier" after the elite CS schools. The main thing about CS right now is you need to be thinking about AI and positioning yourself for the future. A CS degree is not like it was a few years ago where it was a ticket to a quick 6-figure salary and lots of jobs. Internships and work projects are more important than GPA. Companies want to know you have actually put things into action. The key is getting that initial experience anywhere and then building on it — don't think you can only intern at Microsoft. Find small companies that can't afford to pay programmers big salaries and do work for them inexpensively, then use that experience to leverage better jobs.
+=== END COMMENT 13 ===

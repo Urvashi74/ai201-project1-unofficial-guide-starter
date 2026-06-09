@@ -1,0 +1,62 @@
+--- DOCUMENT METADATA ---
+course: CSC 520 - Artificial Intelligence
+professor: Bita Akram
+department: Computer Science (CSC)
+university: North Carolina State University (NCSU)
+--- END METADATA ---
+
+
+=== POST 1 ===
+type: original_post
+
+[PASTE ORIGINAL POST TEXT HERE]
+=== END POST 1 ===
+
+
+=== COMMENT 1 — Thread 1 ===
+type: comment
+
+[PASTE COMMENT TEXT HERE]
+=== END COMMENT 1 — Thread 1 ===
+
+
+=== COMMENT 2 — Thread 1 ===
+type: comment
+
+[PASTE COMMENT TEXT HERE]
+=== END COMMENT 2 — Thread 1 ===
+
+
+=== COMMENT 3 — Thread 1 ===
+type: comment
+
+[PASTE COMMENT TEXT HERE]
+=== END COMMENT 3 — Thread 1 ===
+
+
+=== POST 2 ===
+type: original_post
+
+[PASTE ORIGINAL POST TEXT HERE]
+=== END POST 2 ===
+
+
+=== COMMENT 1 — Thread 2 ===
+type: comment
+
+[PASTE COMMENT TEXT HERE]
+=== END COMMENT 1 — Thread 2 ===
+
+
+=== COMMENT 2 — Thread 2 ===
+type: comment
+
+[PASTE COMMENT TEXT HERE]
+=== END COMMENT 2 — Thread 2 ===
+
+
+=== COMMENT 3 — Thread 2 ===
+type: comment
+
+[PASTE COMMENT TEXT HERE]
+=== END COMMENT 3 — Thread 2 ===

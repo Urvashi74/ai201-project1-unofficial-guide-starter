@@ -1,0 +1,55 @@
+--- DOCUMENT METADATA ---
+course: CSC 216 - Software Development Fundamentals
+university: North Carolina State University (NCSU)
+department: Computer Science (CSC)
+--- END METADATA ---
+
+
+=== COMMENT 1 ===
+The CSC 216 projects have lots of unclear stuff in the descriptions and Jenkins had incorrect feedback at times. Who knows how long they'll take but the fact that you can have a partner for Project 2 infers that it is worse than Project 1. Just prepare for the worst and plan to start early.
+=== END COMMENT 1 ===
+
+
+=== COMMENT 2 ===
+Project 2 in CSC 216 is significantly easier than Project 1. You have the option to work on it with a partner but even if you don't, it's not as difficult as Project 1.
+=== END COMMENT 2 ===
+
+
+=== COMMENT 3 ===
+CSC 216 has the highest workload of any course I took that semester, but it wasn't insane. If you start to work on the projects as soon as they're assigned it's no problem, especially if you feel confident in Java.
+=== END COMMENT 3 ===
+
+
+=== COMMENT 4 ===
+I made the mistake of waiting until the last minute on a CSC 216 project. Long story short I didn't sleep that night.
+=== END COMMENT 4 ===
+
+
+=== COMMENT 5 ===
+If you got a 5 on AP Comp Sci, the content of CSC 216 will be easy for you. That being said, it's just a lot of work to do so make sure you're managing time well.
+=== END COMMENT 5 ===
+
+
+=== COMMENT 6 ===
+CSC 216 primarily tests your ability to manage your time. It's the first "weed out the weak" class you'll come across in the program. Around the middle of the semester a good chunk of the class starts bailing because they realize programming isn't a walk in the park. My advice: understand your lab partners and their goals. Don't be afraid to make assumptions on how serious they are. Be prepared to fully take over their work if they bail. If you're the person thinking of bailing, please let your group know as soon as possible so they can adjust.
+=== END COMMENT 6 ===
+
+
+=== COMMENT 7 ===
+Don't procrastinate in CSC 216 and you'll be fine. There are 3 small projects at the beginning that essentially guide you through how to use the IDE and NCSU GitHub repos. Then there are 3 larger projects split into two parts with a week each. The first part gives you program specifications and asks how you would approach the problem — you have to create your own UML diagrams and write up a short paper describing what everything does and why, but they go over how to do that in class. For the programming itself, they give you a UML class diagram you have to follow, so as long as you can figure out the general vibe of what they're aiming for it's pretty easy to infer how the logic works. There are also weekly group project labs with the same premade UML to follow. The late windows are pretty generous, but don't rely on them.
+=== END COMMENT 7 ===
+
+
+=== COMMENT 8 ===
+In terms of sheer difficulty, CSC 216 shouldn't be that hard if you have years of programming experience and familiarity with OOP. The exams should be fine. The big problem is time. My approach to the projects was to devote around 4 hours to making the required project plan (design document + UML diagram), and then 8-12 hours to actually code the rest of it (4-5 hours to get most of the code written and running, the rest for debugging). Outside of the projects there isn't any actual homework. There are readings in the textbook to accompany the lectures, but if you pay attention in lecture they're not really necessary.
+=== END COMMENT 8 ===
+
+
+=== COMMENT 9 ===
+CSC 216 covers UML diagrams — if it doesn't cover UML directly, it certainly provides guides on how to construct them. CSC 116/216 also goes into proper unit testing and acceptance testing procedures, but the actual proper design process is taught in Software Engineering (CSC 326), which is towards the end of the required courseload for a CSC major.
+=== END COMMENT 9 ===
+
+
+=== COMMENT 10 ===
+The coursework in CSC 216 is not extremely difficult, but it will be one of — if not the most — time consuming class you'll have to take. It's hard.
+=== END COMMENT 10 ===
