@@ -13,7 +13,8 @@
      Why is this knowledge valuable, and why is it hard to find through official channels?
      Example: "Student reviews of CS professors at [university] — useful because official
      course descriptions don't reflect teaching style, exam difficulty, or workload." -->
-Topic: Student reviews and evaluations of CS Professors and courses at NC State University (NCSU).
+
+Student reviews and evaluations of CS Professors and courses at NC State University (NCSU).
 
 This knowledge is valuable because official course catalogs describe *what* is taught but
 never *how* — teaching style, grading transparency, exam difficulty, workload, and whether a
@@ -30,15 +31,15 @@ Rate My Professors pages, Reddit threads, and word-of-mouth, with no single sear
 
 | # | Source | Type | URL or file path |
 |---|--------|------|-----------------|
-| 1 | Rate My Professors – Vincent Freeh | Professor Review | https://www.ratemyprofessors.com/professor/1348612 |
-| 2 | Rate My Professors – Thomas Price | Professor Review | https://www.ratemyprofessors.com/professor/2480706 |
-| 3 | Rate My Professors – Sarah Heckman | Professor Review | https://www.ratemyprofessors.com/professor/1605846 |
-| 4 | Rate My Professors - Kemafor Ogan | Professor Review | https://www.ratemyprofessors.com/professor/1295287 |
-| 5 | Reddit Thread - NCSU for CS | Student Discussion | https://www.reddit.com/r/NCSU/comments/1pzwwe1/ncsu_for_csc_or_unc/ |
-| 6 | Reddit Thread - NCSU for CS | Student Discussion | https://www.reddit.com/r/NCSU/comments/13l019t/does_anybody_have_some_experience_with_ncsu/ |
-| 7 | Reddit Thread - NCSU for CS | Student Discussion | https://www.reddit.com/r/NCSU/comments/n04eg1/csc_difficulty_time_consumption/ |
-| 8 | Reddit Thread - CSC 216 | Student Discussion | https://www.reddit.com/r/NCSU/comments/1ru4cqg/csc_216_major_projects/, https://www.reddit.com/r/NCSU/comments/95lnv1/how_heavy_is_the_workload_for_csc_216/, https://www.reddit.com/r/NCSU/comments/eeeuh0/difficulty_of_csc_216/ |
-| 9 | Reddit Thread - CSC 226 | Student Discussion | https://www.reddit.com/r/NCSU/comments/15yniwm/csc_226/ |
+| 1 | Rate My Professors, Coursicle – Vincent Freeh | Professor Review | https://www.ratemyprofessors.com/professor/1348612, https://www.coursicle.com/ncsu/?professor=Vincent+Freeh&type=reviews |
+| 2 | Rate My Professors, Coursicle  – Thomas Price | Professor Review | https://www.ratemyprofessors.com/professor/2480706, https://www.coursicle.com/ncsu/?professor=Thomas+Price&type=reviews |
+| 3 | Rate My Professors, Coursicle  – Sarah Heckman | Professor Review | https://www.ratemyprofessors.com/professor/1605846, https://www.coursicle.com/ncsu/?professor=Sarah+Heckman&type=reviews |
+| 4 | Rate My Professors, Coursicle  - Kemafor Ogan | Professor Review | https://www.ratemyprofessors.com/professor/1295287, https://www.coursicle.com/ncsu/?professor=Kemafor+Ogan&type=reviews |
+| 5 | Reddit Thread - NCSU for CS | Student Discussion | https://www.reddit.com/r/NCSU/comments/1pzwwe1/ncsu_for_csc_or_unc/, https://www.reddit.com/r/NCSU/comments/13l019t/does_anybody_have_some_experience_with_ncsu/, https://www.reddit.com/r/NCSU/comments/1su9yc8/how_is_compsci_in_ncsu/, https://www.reddit.com/r/NCSU/comments/p0206l/how_good_is_the_cs_program_at_nc_state/ |
+| 6 | Reddit Thread - CSC 116 | Student Discussion | https://www.reddit.com/r/NCSU/comments/qtgusd/professors_for_csc_116/, https://www.reddit.com/r/NCSU/comments/17rj6nu/is_csc_116_a_difficult_class_if_you_have_limited/, https://www.reddit.com/r/NCSU/comments/hmi297/csc_116/ |
+| 7 | Reddit Thread - CSC 216 | Student Discussion | https://www.reddit.com/r/NCSU/comments/1ru4cqg/csc_216_major_projects/, https://www.reddit.com/r/NCSU/comments/95lnv1/how_heavy_is_the_workload_for_csc_216/, https://www.reddit.com/r/NCSU/comments/eeeuh0/difficulty_of_csc_216/ |
+| 8 | Reddit Thread - CSC 226 | Student Discussion | https://www.reddit.com/r/NCSU/comments/15yniwm/csc_226/, https://www.reddit.com/r/NCSU/comments/1nklgtm/how_hard_are_the_csc226_exams/ |
+| 9 | Reddit Thread - CSC 326 | Student Discussion | https://www.reddit.com/r/NCSU/comments/ebyanw/csc_majors_what_makes_csc326_software_engineering/ |
 | 10 | Reddit Thread - CSC 520 | Student Discussion | https://www.reddit.com/r/NCSU/comments/k38f2u/csc_520ai_1_with_dr_bita_akram/, https://www.reddit.com/r/NCSU/comments/k9xc41/has_anyone_taken_csc_520_artificial_intelligence/ |
 
 ---
