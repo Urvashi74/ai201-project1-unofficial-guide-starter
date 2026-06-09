@@ -1,0 +1,124 @@
+--- DOCUMENT METADATA ---
+professor_name: Vincent W. Freeh
+department: Computer Science (CSC)
+university: North Carolina State University (NCSU)
+courses_taught: CSC 112, CSC 236, CSC 246, CSC 501, CSC 512, CSC 591
+--- END METADATA ---
+
+
+=== REVIEW 1 ===
+course: CSC 236
+date: Sep 8, 2021
+quality: 5.0
+difficulty: 4.0
+grade: A+
+would_take_again: Yes
+tags: Gives good feedback, Clear grading criteria
+
+Dr. Freeh is another of my favorite professors at NCSU. I have no idea why assembly language isn't required when classes like computing ethics are required. I learned a lot from this class and he puts a lot of effort into his job.
+=== END REVIEW 1 ===
+
+
+=== REVIEW 2 ===
+course: CSC 236
+date: Oct 26, 2020
+quality: 3.0
+difficulty: 3.0
+would_take_again: No
+tags: Lots of homework, Clear grading criteria, Extra credit
+
+He does a decent job of teaching the material for this class, but his lectures aren't the best. The class is reasonable overall though, as there's plenty of options for extra credit. If you don't make an A in the class its your own fault. 15% bonus for early submission on every project, and an optional project for a 2% boost to your grade.
+=== END REVIEW 2 ===
+
+
+=== REVIEW 3 ===
+course: CSC 246
+date: Apr 19, 2018
+quality: 5.0
+difficulty: 3.0
+grade: A
+would_take_again: Yes
+tags: Skip class? You won't pass., Accessible outside class
+
+Dr. Freeh is an excellent professor. He goes quickly in class, so you need to go to class, but he is very accessible outside of class, and I found myself spending an hour in his office one day during an office hour just hanging out and talking. He's a genuinely great guy and really cares about being fair with his tests and grading.
+=== END REVIEW 3 ===
+
+
+=== REVIEW 4 ===
+course: CSC 501
+date: Dec 23, 2016
+quality: 5.0
+difficulty: 3.0
+grade: A+
+would_take_again: Yes
+tags: Inspirational, So many papers, Extra credit
+
+One of the best professors for Operating Systems. His classes provide a plethora of knowledge on the current and past system design. The best part is the projects. You get to work and implement powerful Linux concepts. I have learned more in the last 4 months about Linux than my last 3 years of experience as a Platform Engineer. A great professor to work with and never miss a class as the lecture notes will not be posted anywhere.
+=== END REVIEW 4 ===
+
+
+=== REVIEW 5 ===
+course: CSC 501
+date: Dec 21, 2016
+quality: 1.0
+difficulty: 4.0
+grade: B
+would_take_again: No
+tags: Tough grader, Lots of homework
+
+Rarely teaches concepts in class. You have to do heavy reading on your own if you want to know the concepts. Wastes class time bragging about his assignments. Has stupid policies about bonus marks in exams. For example, he gives bonus for circling the page number in exam paper which is mentioned in instructions (psych test).
+=== END REVIEW 5 ===
+
+
+=== REVIEW 6 ===
+course: CSC 501
+date: May 26, 2016
+quality: 2.0
+difficulty: 4.0
+grade: A-
+would_take_again: No
+
+The lectures are a very high-level survey, so much so that they are *almost* useless. Need to have prior knowledge about OS, otherwise you are in a world of pain.
+=== END REVIEW 6 ===
+
+
+=== REVIEW 7 ===
+course: CSC 591
+date: Jan 3, 2016
+quality: 3.0
+difficulty: 3.0
+grade: A
+
+Data Intensive Computing. Classes weren't particularly helpful as he touched the surface of different frameworks which one can easily look up on Wiki pages. There was a semester long group project. Regarding project, he may give you pointers but you're mostly on your own. This is not his core subject, so don't expect much. He does better in CSC 501.
+=== END REVIEW 7 ===
+
+
+=== REVIEW 8 ===
+course: CSC 512
+date: Jan 13, 2014
+quality: 5.0
+difficulty: 3.0
+grade: A
+
+Good professor. Makes sure what he says in class is on exams. Nice standard format of the class: no surprises. Fair professor. Just be prepared for some difficult C coding and do not put off the projects because they are no joke.
+=== END REVIEW 8 ===
+
+
+=== REVIEW 9 ===
+course: CSC 501
+date: Sep 27, 2013
+quality: 4.5
+difficulty: 3.0
+
+Qualified and confident. He knows what he is talking about and is passionate about it.
+=== END REVIEW 9 ===
+
+
+=== REVIEW 10 ===
+course: CSC 112
+date: May 3, 2010
+quality: 3.0
+difficulty: 2.0
+
+Lectures are good and help but are not required. Make sure you go to the labs, that's what really counts in this class.
+=== END REVIEW 10 ===

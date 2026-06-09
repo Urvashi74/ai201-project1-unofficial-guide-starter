@@ -1,0 +1,222 @@
+--- DOCUMENT METADATA ---
+professor_name: Sarah Heckman
+department: Computer Science (CSC)
+university: North Carolina State University (NCSU)
+courses_taught: CSC 116, CSC 216, CSC 217, CSC 226, CSC 230, CSC 293, CSC 326
+--- END METADATA ---
+
+
+=== REVIEW 1 ===
+course: CSC 216
+date: May 3, 2026
+quality: 5.0
+difficulty: 3.0
+would_take_again: Yes
+tags: Group projects, Lots of homework
+
+The weekly projects take a lot of time to complete but aren't necessarily super difficult. Prof Heckman is a solid lecturer and I felt like I learned a ton in this class. Just stay on top of project deadlines and you'll do very well in this class. Exams are relatively easy and offer lots of partial credit.
+=== END REVIEW 1 ===
+
+
+=== REVIEW 2 ===
+course: CSC 216
+date: Apr 28, 2026
+quality: 4.0
+difficulty: 3.0
+would_take_again: Yes
+tags: Lecture heavy, Test heavy
+
+She is a really nice professor. However, the exams are hard and projects take a very long time, so make sure you actually lock in and study.
+=== END REVIEW 2 ===
+
+
+=== REVIEW 3 ===
+course: CSC 216
+date: Apr 24, 2026
+quality: 3.0
+difficulty: 5.0
+would_take_again: Yes
+tags: Lecture heavy
+
+She seems nice, but I do not like the lectures. Fast-paced, lots of info presented, and not getting enough from them. Projects take a lot of time, and they have components with deadlines during exam week. I wish I had started P1 sooner. Thankfully, we were allowed a partner for the final project.
+=== END REVIEW 3 ===
+
+
+=== REVIEW 4 ===
+course: CSC 216
+date: Apr 20, 2026
+quality: 3.0
+difficulty: 4.0
+grade: C+
+tags: Tough grader, Lecture heavy
+
+If you go to every class and take good notes then you can stay on top but if you miss even one class be prepared to do a lot of work to catch back up. The projects are not hard but the instructions are unclear, so you will often spend many hours rewriting code, because the instructions and the staff test code expectations can be different.
+=== END REVIEW 4 ===
+
+
+=== REVIEW 5 ===
+course: CSC 326
+date: Mar 17, 2026
+quality: 3.0
+difficulty: 1.0
+grade: A+
+would_take_again: Yes
+tags: Extra credit, Clear grading criteria, Lecture heavy
+
+Easy class with two lab projects constituting bulk of the grade. Midterm and final were each 15% only. Dr. Heckman lectures a lot with several participation activities in class. Attendance is mandatory.
+=== END REVIEW 5 ===
+
+
+=== REVIEW 6 ===
+course: CSC 216
+date: Mar 7, 2026
+quality: 3.0
+difficulty: 4.0
+would_take_again: Yes
+tags: Lecture heavy, Graded by few things
+
+Dr. Heckman is a good lecturer but she moves really fast. However, the class is really just hard. There's project milestones and lab deadlines on the same week as an exam. Project directions also contain typos, confusing language, and broken links. And not to mention the MILLION research studies they keep hounding you to participate in.
+=== END REVIEW 6 ===
+
+
+=== REVIEW 7 ===
+course: CSC 326
+date: Dec 7, 2025
+quality: 1.0
+difficulty: 2.0
+grade: B+
+
+The course has been difficult to follow because the lectures rarely align with the lab work, leaving many concepts unclear. The instructor's explanations feel scattered, and her interactions with students often come across as curt, which makes the class atmosphere uncomfortable and discouraging.
+=== END REVIEW 7 ===
+
+
+=== REVIEW 8 ===
+course: CSC 326
+date: Dec 7, 2025
+quality: 1.0
+difficulty: 3.0
+grade: A-
+tags: Participation matters, Group projects
+
+The instructor's lectures are poorly structured and don't connect to the labs, leaving students confused. Her teaching style is unhelpful, and she is often rude and dismissive when students ask questions. This has created a frustrating learning environment and makes understanding the material difficult.
+=== END REVIEW 8 ===
+
+
+=== REVIEW 9 ===
+course: CSC 216
+date: May 7, 2025
+quality: 5.0
+difficulty: 3.0
+grade: A
+would_take_again: Yes
+tags: Clear grading criteria, Respected
+
+Dr. Heckman was very knowledgeable and a great lecturer. She went over notes and information in lectures and gave us tips for how to do things more efficiently. The projects take a long time, so start early! The projects will usually take longer than the projected time she gives. The class is time-intensive, but Dr. Heckman makes it bearable.
+=== END REVIEW 9 ===
+
+
+=== REVIEW 10 ===
+course: CSC 216
+date: May 5, 2025
+quality: 4.0
+difficulty: 4.0
+grade: A
+would_take_again: Yes
+tags: Clear grading criteria, Lots of homework, Respected
+
+Dr. Heckman is a great lecturer and very enthusiastic, but the class overall is rough + fast-paced. The exams are more difficult than they should be, especially the final (too much writing code by hand). The projects take up lots of your time but are great at giving a hands-on experience, unlike the slides. Beware of the min grade requirement!!
+=== END REVIEW 10 ===
+
+
+=== REVIEW 11 ===
+course: CSC 216
+date: May 2, 2025
+quality: 5.0
+difficulty: 3.0
+grade: A+
+would_take_again: Yes
+tags: Amazing lectures, Clear grading criteria, Respected
+
+She loves teaching and is passionate about computer science. Tests are fair and it is easy to do well in her class if you stay on top of project deadlines, go to office hours when necessary, and study well. All in all, a great 216 experience and prepared us well for 316. Will surely take her again if given the chance!
+=== END REVIEW 11 ===
+
+
+=== REVIEW 12 ===
+course: CSC 216
+date: Apr 22, 2025
+quality: 5.0
+difficulty: 5.0
+grade: B-
+would_take_again: Yes
+tags: Tough grader, Group projects, Lots of homework
+
+216 is awful. Tons of work and long hours. Dr. H made it much more bearable with her helpful TAs and great digestible lectures. I still suffered greatly in this class but I'm glad it wasn't worse.
+=== END REVIEW 12 ===
+
+
+=== REVIEW 13 ===
+course: CSC 216
+date: Jan 30, 2025
+quality: 5.0
+difficulty: 3.0
+grade: A-
+would_take_again: Yes
+tags: Clear grading criteria, Inspirational, Online savvy
+
+Dr. Heckman is the best professor you can take for 216. She is really passionate about Java data structures and techniques (especially iterators), and prepares you the best she can for the numerous projects and coding assignments. Start Part 2 of the projects as soon as you can -- you will spend more time than you expect debugging.
+=== END REVIEW 13 ===
+
+
+=== REVIEW 14 ===
+course: CSC 216
+date: Dec 23, 2024
+quality: 5.0
+difficulty: 2.0
+grade: A-
+would_take_again: Yes
+tags: Extra credit, Accessible outside class
+
+Dr. Heckman is one of the best professors I've had so far in CSC. She is very approachable and knowledgeable. It's clear she wants us to understand how to write good code for industry. If you're taking her for CSC216 make sure you start on the projects early and study lots for the tests. The final has lots of code writing on it.
+=== END REVIEW 14 ===
+
+
+=== REVIEW 15 ===
+course: CSC 230
+
+Honestly, probably one of the best computer science teachers you will ever have. If you pay attention in class and do everything she asks, you will get good grades and really understand the material. If you slack off for even one day you will have a hard time with the class. In order to pass, you cannot, I repeat, you cannot procrastinate.
+=== END REVIEW 15 ===
+
+
+=== REVIEW 16 ===
+course: CSC 230
+
+The projects in this class are challenging and take a lot more time than you think. Heckman was overall very helpful and probably the best comp sci teacher I've had so far at NC State. She is good at not being too smart when teaching so you actually have a chance to understand the information. The lectures are long and info is gone through quickly.
+=== END REVIEW 16 ===
+
+
+=== REVIEW 17 ===
+course: CSC 230
+
+Dr. Heckman is a fantastic instructor. You can tell she really has a passion for what she teaches, because whenever she talks about a new topic she gets excited as if she was just learning it for the first time as well. I took her class for CSC 216 and 230, and I recommend you do the same.
+=== END REVIEW 17 ===
+
+
+=== REVIEW 18 ===
+course: CSC 326
+
+Heckman's CSC 326 not only assumes that everybody wants/needs full-stack engineering skills, but grades you based on superficial criteria that doesn't apply to the work itself. Too much emphasis was put on "process" which took away from the engineering side of the class.
+=== END REVIEW 18 ===
+
+
+=== REVIEW 19 ===
+course: CSC 216
+
+Great at explaining. Covered lots of material effectively. She assigns a TON of work but the work helps you learn the material. Only criticism is that she was not very approachable and was not great at answering questions outside of class.
+=== END REVIEW 19 ===
+
+
+=== REVIEW 20 ===
+course: CSC 216
+
+Professor Heckman has really, really detailed slides. As a result, she often goes over material way too fast in class. However, because her slides are so detailed, reviewing for the test is pretty easy even if you forget a concept completely. Start projects early, ask a lot of questions, and study for tests and you'll do just fine.
+=== END REVIEW 20 ===

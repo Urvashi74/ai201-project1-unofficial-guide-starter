@@ -1,0 +1,234 @@
+--- DOCUMENT METADATA ---
+professor_name: Thomas Price
+department: Computer Science (CSC)
+university: North Carolina State University (NCSU)
+courses_taught: CSC 110, CSC 422, CSC 522
+--- END METADATA ---
+
+
+=== REVIEW 1 ===
+course: CSC 522
+date: Apr 4, 2025
+quality: 5.0
+difficulty: 3.0
+would_take_again: Yes
+tags: Inspirational, Lots of homework, Respected
+
+Dr. Price is one of the best professors I've had at NCSU. This is one of the best courses I've taken. Lectures are detailed and well-organized. The guided projects with milestones made learning ML really smooth. Practice problems on Tophat and homework - helpful to grasp the theory. He's also very considerate. Wish I could give more than 5 stars!
+=== END REVIEW 1 ===
+
+
+=== REVIEW 2 ===
+course: CSC 110
+date: Jan 8, 2024
+quality: 5.0
+difficulty: 2.0
+grade: A+
+would_take_again: Yes
+tags: Extra credit, Accessible outside class
+
+The class was pretty easy, the way he graded things was great, it was very lenient, and with tons of extra credit and easy-to-follow instructions for labs. I highly recommend taking it.
+=== END REVIEW 2 ===
+
+
+=== REVIEW 3 ===
+course: CSC 110
+date: Dec 19, 2023
+quality: 5.0
+difficulty: 3.0
+grade: A
+would_take_again: Yes
+tags: Tough grader, Group projects, Clear grading criteria
+
+Really enjoyed this class, convinced me to minor in Compsci! Dr Price is so nice and so obviously cares about this topic! He uses a flipped classroom model which I really enjoy. Most work is with a partner so be ready for that. The final project was a bit harder than I think it should've been and I had some grade issues with TAs but no other issues.
+=== END REVIEW 3 ===
+
+
+=== REVIEW 4 ===
+course: CSC 110
+date: Dec 12, 2023
+quality: 4.0
+difficulty: 2.0
+grade: A
+would_take_again: Yes
+tags: Group projects, Accessible outside class, Online savvy
+
+As someone who is helpless with technology I was scared to take this class but Dr. Price was great. Every class period him and the TA's would walk around and help us with any questions. There are 2 big partner projects that make up the midterm and final, also 4 quizzes dispersed throughout that he will warn you about.
+=== END REVIEW 4 ===
+
+
+=== REVIEW 5 ===
+course: CSC 522
+date: May 9, 2022
+quality: 5.0
+difficulty: 5.0
+grade: A-
+would_take_again: Yes
+tags: Participation matters, Caring, Online savvy
+
+Attend the class or make sure to watch the lectures. Very receptive to questions. Textbook is mostly optional, lecture slides are detailed. Uses Tophat to gauge understanding. Don't be afraid to ask questions.
+=== END REVIEW 5 ===
+
+
+=== REVIEW 6 ===
+course: CSC 522
+date: May 3, 2022
+quality: 5.0
+difficulty: 4.0
+grade: A-
+would_take_again: Yes
+tags: Participation matters, Group projects, Amazing lectures
+
+There is a lot of material, but he does an amazing job at teaching. Using a lot of examples, and definitely knows his stuff. The HW can be long-ish, so start early (prob take you a couple of hours for each one), but it is a partner-based thing so you can work it out together. The Final Project is also not bad, gives you a lot of experience.
+=== END REVIEW 6 ===
+
+
+=== REVIEW 7 ===
+course: CSC 110
+date: Jan 14, 2022
+quality: 5.0
+difficulty: 3.0
+grade: B
+would_take_again: Yes
+tags: Accessible outside class, Skip class? You won't pass., Group projects
+
+Very considerate and tries to make sure everyone understands the material. Cares about your grades and will work with you as long as you show enough effort. Group projects a bit challenging but not impossible.
+=== END REVIEW 7 ===
+
+
+=== REVIEW 8 ===
+course: CSC 110
+date: Oct 10, 2021
+quality: 3.0
+difficulty: 4.0
+would_take_again: No
+tags: Lots of homework, Get ready to read, Group projects
+
+I don't know how much I would recommend this class especially if you do not have a lot of experience with computer science. The class description says you don't have to have any prior knowledge, but he expects you to get the information right away. The lectures are easier to understand than the labs themselves. Office hours seem like a must mostly.
+=== END REVIEW 8 ===
+
+
+=== REVIEW 9 ===
+course: CSC 110
+date: Aug 11, 2021
+quality: 4.0
+difficulty: 3.0
+grade: A-
+would_take_again: Yes
+tags: Group projects
+
+Price gave lecture the first 15-20 minutes of class to explain how to do the assignment that would be assigned. Very group oriented even though it was online. Easy class if you pay attention. TA's were nice and helpful and ran most of the office hours.
+=== END REVIEW 9 ===
+
+
+=== REVIEW 10 ===
+course: CSC 522
+date: Mar 11, 2021
+quality: 5.0
+difficulty: 3.0
+would_take_again: Yes
+tags: Lots of homework, Accessible outside class, Amazing lectures
+
+Dr Price is the best teacher at NC State I had so far. His lectures are incredibly well organized and class logistics is very clear. His homeworks are time-consuming, but help learn the concepts really well. He tries to make the lectures very engaging by using TopHat and breakout Zoom rooms. He is also very useful during office hours.
+=== END REVIEW 10 ===
+
+
+=== REVIEW 11 ===
+course: CSC 110
+date: Nov 22, 2020
+quality: 5.0
+difficulty: 2.0
+grade: A+
+would_take_again: Yes
+tags: Gives good feedback, Participation matters, Group projects
+
+CSC 110 is a very straight-forward class, and Dr. Price does a great job of making it engaging and useful! There are very fun homework/projects, most of the semester did not take very much time, and grading is fair. There were two projects Dr. Price expects you to spend 10-15 hours on, but he also gives you time in-class to help make that quota.
+=== END REVIEW 11 ===
+
+
+=== REVIEW 12 ===
+course: CSC 522
+date: Nov 1, 2020
+quality: 5.0
+difficulty: 2.0
+grade: A
+would_take_again: Yes
+tags: Clear grading criteria, Beware of pop quizzes, Amazing lectures
+
+Dr. Thomas Price did an amazing job in the second year he took this class (in 2020). He quickly adapted to the online mode and made a seamless switch. He sets up a clear syllabus and grading criteria. He gives fair grades, conducts quizzes, provides extra credits and late days on assignments. He maintains a consistent speed in his classes.
+=== END REVIEW 12 ===
+
+
+=== REVIEW 13 ===
+course: CSC 110
+date: Oct 29, 2020
+quality: 4.0
+difficulty: 3.0
+grade: A-
+would_take_again: Yes
+tags: Respected, Lots of homework, Caring
+
+Dr. Price is an amazing teacher who really cares about improving his class to make it as accommodating as possible. His homework however is a little too difficult to do alone as compared to the ease of the lecture.
+=== END REVIEW 13 ===
+
+
+=== REVIEW 14 ===
+course: CSC 522
+date: May 7, 2020
+quality: 5.0
+difficulty: 3.0
+grade: A
+would_take_again: Yes
+tags: Clear grading criteria, Amazing lectures, Caring
+
+Dr. Price did an amazing job in his lectures by explaining the theory and solving sample problems. He respects the opinions of students and implements them immediately. Even though this was his second time teaching this subject, he really outdid himself this semester. Definitely recommend for students who are interested in Data Science.
+=== END REVIEW 14 ===
+
+
+=== REVIEW 15 ===
+course: CSC 522
+date: Sep 15, 2019
+quality: 5.0
+difficulty: 3.0
+grade: A
+would_take_again: Yes
+tags: Gives good feedback, Caring
+
+I loved his class. He gives great feedback, clear next steps and respects the fact that students have a life outside the classroom.
+=== END REVIEW 15 ===
+
+
+=== REVIEW 16 ===
+course: CSC 522
+date: May 17, 2019
+quality: 1.0
+difficulty: 5.0
+would_take_again: No
+tags: Graded by few things, Test heavy, Tough grader
+
+Most of the lecture slides have technical errors in them (sometimes he emails about errors and sometimes fixes them silently). Grading was about 2 months behind. You have to email him to go to his office hours. He doesn't give any partial credit for any questions on exams (This really sucks)!! Highly recommend to avoid any class he teaches.
+=== END REVIEW 16 ===
+
+
+=== REVIEW 17 ===
+course: CSC 522
+date: May 13, 2019
+quality: 1.0
+difficulty: 5.0
+would_take_again: No
+tags: Get ready to read, Graded by few things, Test heavy
+
+He managed to teach the worst class I ever took at NC State.
+=== END REVIEW 17 ===
+
+
+=== REVIEW 18 ===
+course: CSC 522
+date: Apr 16, 2019
+quality: 1.0
+difficulty: 5.0
+would_take_again: No
+tags: Lots of homework, Test heavy, Lecture heavy
+
+He is a new professor and I'm sure he is still gaining experience, but he managed to teach one of the worst classes I ever seen. He constantly makes mistakes while solving a problem in class and the next time brings same question to fix it and makes more mistakes on it (creating more confusion). Get ready to self-study if you take his class.
+=== END REVIEW 18 ===

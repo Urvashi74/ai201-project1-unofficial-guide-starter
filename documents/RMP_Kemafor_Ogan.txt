@@ -1,0 +1,208 @@
+--- DOCUMENT METADATA ---
+professor_name: Kemafor Anyanwu Ogan
+department: Computer Science (CSC)
+university: North Carolina State University (NCSU)
+courses_taught: CSC 440, CSC 454, CSC 540, CSC 541, CSC 742
+--- END METADATA ---
+
+
+=== REVIEW 1 ===
+course: CSC 440
+date: Dec 4, 2025
+quality: 1.0
+difficulty: 4.0
+tags: Test heavy, Graded by few things
+
+Hate is a strong word, and as a child of God, I really try not to use it toward anyone, but this woman tested every bit of that restraint. She is completely disorganized and barely teaches. This class was an absolute waste of a semester and a total waste of my time.
+=== END REVIEW 1 ===
+
+
+=== REVIEW 2 ===
+course: CSC 540
+date: Dec 11, 2024
+quality: 1.0
+difficulty: 4.0
+
+Many students take Prof. Kemafor's class only to fulfill credit requirements, not because she's a great professor. She lacks teaching skills and professionalism. I even heard she once asked a student for a picture of her medicine bottle and purchase receipt, even though she already provided a work note. This is privacy violation! Such a shame.
+=== END REVIEW 2 ===
+
+
+=== REVIEW 3 ===
+course: CSC 540
+date: Dec 10, 2024
+quality: 1.0
+difficulty: 3.0
+
+Worst professor. Always unprepared, unresponsive, and doesn't seem to care about her students. Instead of focusing on teaching well and making the course enjoyable and rewarding, she's more concerned with questioning students integrity. She even scans students' exam paper to compare what they wrote before and after restroom break during exam.
+=== END REVIEW 3 ===
+
+
+=== REVIEW 4 ===
+course: CSC 540
+date: Dec 16, 2022
+quality: 1.0
+difficulty: 4.0
+grade: F
+
+I beg you only take this class if you want to see what an incompetent professor is like. She doesn't understand the material well enough to teach effectively. All her class lectures are from online sources, and I find her English proficiency incredibly low as a professor. This professor is a shame of NCSU CSC program.
+=== END REVIEW 4 ===
+
+
+=== REVIEW 5 ===
+course: CSC 540
+date: Dec 16, 2022
+quality: 1.0
+difficulty: 4.0
+grade: F
+
+Worst professor the NCSU CSC program ever had. Project 1 was awful and the grade was heavily based on peer evaluation. For example, if you get 100 on the project, but your peers rate you poorly, you could end up with only 60... What a joke. The lectures didn't really prepare you for the tests either.
+=== END REVIEW 5 ===
+
+
+=== REVIEW 6 ===
+course: CSC 440
+date: Dec 15, 2022
+quality: 1.0
+difficulty: 3.0
+
+Please, please, please keep away from this course, and do not waste your time on it.
+=== END REVIEW 6 ===
+
+
+=== REVIEW 7 ===
+course: CSC 440
+date: Dec 15, 2022
+quality: 1.0
+difficulty: 3.0
+
+The professor was leaving faster than all students in the classroom. And I failed to catch up with the professor's leaving speed. Other minor points could all be found in the lecture videos, and I do not want to state more unbelievable points about this course.
+=== END REVIEW 7 ===
+
+
+=== REVIEW 8 ===
+course: CSC 440
+date: Dec 12, 2022
+quality: 1.0
+difficulty: 3.0
+
+Keep away from this class. Lectures and powerpoints are unhelpful and pretty uninteresting, the project is an unreal amount of work to even set up the database (several thousand lines of code), and just overall very disorganized. Besides the project, the class wasn't difficult and the tests were forgiving, but I wish I took a different elective.
+=== END REVIEW 8 ===
+
+
+=== REVIEW 9 ===
+course: CSC 540
+date: Dec 6, 2022
+quality: 1.0
+difficulty: 5.0
+
+By far one of the worst professors I have ever taken a class from. She is unprepared, doesn't care about students, and I doubt created any of the content for the course (no wonder she doesn't understand it). She often gets lost in her own thoughts. She at one point in this semester stated that students needed to stop emailing her. She is awful.
+=== END REVIEW 9 ===
+
+
+=== REVIEW 10 ===
+course: CSC 541
+date: Dec 20, 2021
+quality: 1.0
+difficulty: 4.0
+grade: A
+would_take_again: No
+tags: Get ready to read, Group projects, Tough grader
+
+She uses slides copied from elsewhere to talk about data structures she doesn't even understand and even uses those as team projects. The questions on the exams were not difficult but she would harshly ask for formatting issues that were not explicitly stated and deduct many of your points. You won't get an A+ even if you get 96.5.
+=== END REVIEW 10 ===
+
+
+=== REVIEW 11 ===
+course: CSC 540
+date: Dec 20, 2021
+quality: 1.0
+difficulty: 1.0
+grade: A-
+would_take_again: No
+
+Dr. Ogan and her TAs are absolutely awful. Dr. Ogan seemed to be underprepared for her classes and did not follow her logic well while explaining the lecture materials. The project documents she and her TAs provided are confusing, and often contradicted each other. We got feedback and grades for our assignments in the last week of the semester.
+=== END REVIEW 11 ===
+
+
+=== REVIEW 12 ===
+course: CSC 541
+date: Dec 6, 2021
+quality: 1.0
+difficulty: 3.0
+would_take_again: No
+
+In-class activities and exams were pretty easy for advanced data structures. The struggle came with the projects (that were very obviously not written by Dr. Ogan, but rather by a teacher that actually taught the class). Dr. Ogan lacked teaching abilities -- could barely finish sentences, give any help when instructions were unclear, and came across as stuck up.
+=== END REVIEW 12 ===
+
+
+=== REVIEW 13 ===
+course: CSC 540
+date: Dec 2, 2021
+quality: 1.0
+difficulty: 4.0
+grade: A
+would_take_again: No
+tags: Lots of homework, Participation matters, Group projects
+
+Professor Kemafor is often underprepared for her classes as we can see her get confused all the time. The concepts that she intends to explain are also not up to the mark as it's very tedious to listen to her class. The questions that are given in the exams are of higher level and difficulty compared to what is taught in class. Overall disappointed.
+=== END REVIEW 13 ===
+
+
+=== REVIEW 14 ===
+course: CSC 454
+date: Jan 27, 2021
+quality: 4.0
+difficulty: 2.0
+grade: A-
+would_take_again: Yes
+tags: Gives good feedback, Accessible outside class, Group projects
+
+It was a nice class but the project about the Token Trader was very dry and not much encouraging.
+=== END REVIEW 14 ===
+
+
+=== REVIEW 15 ===
+course: CSC 540
+date: Nov 23, 2020
+quality: 1.0
+difficulty: 4.0
+would_take_again: No
+tags: Participation matters, Test heavy, Group projects
+
+Not at all a good professor. She would say there's no exams but then she would take 3 quizzes which are much more difficult than an exam. She doesn't have clear concepts and watching her videos makes you forget what you already know. There are additional 2 projects which are graded on ambiguous criteria and she is by far the worst professor I know.
+=== END REVIEW 15 ===
+
+
+=== REVIEW 16 ===
+course: CSC 742
+
+WORST PROFESSOR EVER!! There was no clear grading criteria. Her favorites all got higher grades and I am serious about this. Decides towards the end of the semester that there would be grades for attendance. Doesn't teach anything in class. Waste of 3 credits. The worst decision of my life ever.
+=== END REVIEW 16 ===
+
+
+=== REVIEW 17 ===
+course: CSC 540
+
+Dr. Ogan was the worst professor that I had at NCSU. I highly discourage from taking any course with her. She forgets what she is talking about during the lectures, so they're very boring and hard to understand. The exams are hard and very different from the homeworks. The project descriptions are very unclear and even TAs don't understand them.
+=== END REVIEW 17 ===
+
+
+=== REVIEW 18 ===
+course: CSC 540
+
+She doesn't know what she's talking about. I felt like I knew less about databases after the lectures. She'll spend an entire class trying to explain what a union is, and then grill you on other stuff on the tests. Her homeworks are riddled with issues not related to the concepts at hand. Her grading is harsh.
+=== END REVIEW 18 ===
+
+
+=== REVIEW 19 ===
+course: CSC 540
+
+She is available outside class, enforces a lenient attendance policy and has a clear grading criteria. The group project was also interesting as we got to design and develop a database from scratch using Java and JDBC.
+=== END REVIEW 19 ===
+
+
+=== REVIEW 20 ===
+course: CSC 540
+
+Took it believing it to be an easy course. Couldn't be more wrong. Start is easy, but the subject gets intensive after the midterm. Two projects and the specifications keep changing. So always read the updated file. Attend lectures and concentrate to get a better idea about the class. Exams are very long and always difficult to complete on time.
+=== END REVIEW 20 ===
