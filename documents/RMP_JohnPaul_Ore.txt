@@ -1,0 +1,110 @@
+--- DOCUMENT METADATA ---
+professor_name: John-Paul Ore
+department: Computer Science (CSC)
+university: North Carolina State University (NCSU)
+courses_taught: CSC 326, CSC 591, CSC 791
+--- END METADATA ---
+
+
+=== REVIEW 1 ===
+course: CSC 591
+date: Sep 5, 2023
+quality: 5.0
+difficulty: 2.0
+grade: A
+would_take_again: Yes
+tags: Clear grading criteria, Gives good feedback
+
+Read a bunch of papers about software for robotics and did a research project. Prepares you well for research! Would recommend his Software for Robotics Today class!
+=== END REVIEW 1 ===
+
+
+=== REVIEW 2 ===
+course: CSC 326
+date: Aug 28, 2023
+quality: 5.0
+difficulty: 1.0
+grade: A
+would_take_again: Yes
+tags: Caring
+
+Dr. Ore is one of the few gems in CSC. Dr. Ore genuinely cares for his students. Quizzes are easy, and labs are manageable. He respected wellness days and actually adapted coursework in response to the campus mental health crisis (fall 2022), unlike almost every other CSC professor who blatantly ignored the situation.
+=== END REVIEW 2 ===
+
+
+=== REVIEW 3 ===
+course: CSC 591
+date: May 5, 2023
+quality: 5.0
+difficulty: 2.0
+grade: A+
+would_take_again: Yes
+tags: Get ready to read, Caring
+
+Special topics: Software for Robotics Today. Dr. Ore is probably the most helpful, kind, and genuine professor I've had in the CSC department. He was always willing to help and made the class very informative and enjoyable. I learned a lot about robotics, and after taking two courses with him I would highly recommend any class that Dr. Ore teaches.
+=== END REVIEW 3 ===
+
+
+=== REVIEW 4 ===
+course: CSC 326
+date: Jan 12, 2023
+quality: 5.0
+difficulty: 2.0
+grade: A-
+would_take_again: Yes
+tags: Group projects, Amazing lectures, Caring
+
+His lectures were entertaining and informative and it was easy to tell that he cared about the students. He was very approachable for questions after class and responded on Piazza to ensure that we understood the material. He gave good insight into how things actually work in industry and was overall a great professor.
+=== END REVIEW 4 ===
+
+
+=== REVIEW 5 ===
+course: CSC 326
+date: Jan 12, 2023
+quality: 5.0
+difficulty: 2.0
+grade: A
+would_take_again: Yes
+tags: Amazing lectures, Inspirational, Respected
+
+Professor GOAT-Paul Ore is the professor that you have to take for Software Engineering. He is extremely energetic and knows the material very well. He responds more on Piazza than his own TAs. He gives you time throughout the semester to work on the final project instead of lecture and gave us donuts. GOAT status.
+=== END REVIEW 5 ===
+
+
+=== REVIEW 6 ===
+course: CSC 326
+date: Jan 12, 2023
+quality: 5.0
+difficulty: 2.0
+grade: A+
+would_take_again: Yes
+tags: Extra credit, Amazing lectures, Caring
+
+Gave us donuts and was very nice to all students. Very enthusiastic in all lectures. Known to some as GOAT-Paul Ore for being the Greatest Of All Time.
+=== END REVIEW 6 ===
+
+
+=== REVIEW 7 ===
+course: CSC 591
+date: Oct 29, 2021
+quality: 5.0
+difficulty: 4.0
+grade: A
+would_take_again: Yes
+tags: Gives good feedback, Amazing lectures, Caring
+
+Dr. Ore clearly cares about people doing well in his course. There were a fairly large number of papers to review, but the workshops were fun and very useful.
+=== END REVIEW 7 ===
+
+
+=== REVIEW 8 ===
+course: CSC 791
+date: Oct 29, 2021
+quality: 5.0
+difficulty: 4.0
+grade: A
+would_take_again: Yes
+tags: Gives good feedback, Accessible outside class, Clear grading criteria
+
+I took software engineering for robotics with Dr. Ore and I thought the class was great! Lots of interactive workshops and comprehensive homeworks. Some linux experience is helpful although not totally required.
+=== END REVIEW 8 ===

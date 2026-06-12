@@ -1,62 +1,97 @@
 --- DOCUMENT METADATA ---
 course: CSC 520 - Artificial Intelligence
-professor: Bita Akram
 department: Computer Science (CSC)
 university: North Carolina State University (NCSU)
 --- END METADATA ---
 
 
-=== POST 1 ===
-type: original_post
+=== COMMENT 1 ===
 
-[PASTE ORIGINAL POST TEXT HERE]
-=== END POST 1 ===
+I had csc 116 with Akram, AI is what she focused on when she was studying. She is kind and seemingly intelligent but not especially experienced and makes occasional mistakes.
 
+She has an accent that I can't point but its European, makes me think "Poland" and is sometimes hard to understand because of it.
 
-=== COMMENT 1 — Thread 1 ===
-type: comment
-
-[PASTE COMMENT TEXT HERE]
-=== END COMMENT 1 — Thread 1 ===
+In terms of the actual class and course content I know nothing.
+=== END COMMENT 1 ===
 
 
-=== COMMENT 2 — Thread 1 ===
-type: comment
+=== COMMENT 2 ===
 
-[PASTE COMMENT TEXT HERE]
-=== END COMMENT 2 — Thread 1 ===
-
-
-=== COMMENT 3 — Thread 1 ===
-type: comment
-
-[PASTE COMMENT TEXT HERE]
-=== END COMMENT 3 — Thread 1 ===
+Her accent is Iranian, I think
+=== END COMMENT 2 ===
 
 
-=== POST 2 ===
-type: original_post
+=== COMMENT 3 ===
 
-[PASTE ORIGINAL POST TEXT HERE]
-=== END POST 2 ===
+I took this class this past semester with Dr. Lynch and really enjoyed it. You aren't going to be going over machine learning if that is what you are looking for but you learn a lot about environments, agents, search and planning algorithms, probabilistic AI, and pretty much all of the high level topics necessary for AI. Highly recommend
 
-
-=== COMMENT 1 — Thread 2 ===
-type: comment
-
-[PASTE COMMENT TEXT HERE]
-=== END COMMENT 1 — Thread 2 ===
+Edit: if you want me to send you a pdf of the textbook for the class, pm me your email
+=== END COMMENT 3 ===
 
 
-=== COMMENT 2 — Thread 2 ===
-type: comment
+=== COMMENT 4 ===
 
-[PASTE COMMENT TEXT HERE]
-=== END COMMENT 2 — Thread 2 ===
+Someone in another post, maybe it was you lol, said that this class with Dr. Lynch starts with the basics. Did you feel like it did as well? I would be interested in a pdf of the book if you have it.
+=== END COMMENT 4 ===
 
 
-=== COMMENT 3 — Thread 2 ===
-type: comment
+=== COMMENT 5 ===
 
-[PASTE COMMENT TEXT HERE]
-=== END COMMENT 3 — Thread 2 ===
+Hey, sorry for the late reply. We thoroughly described the different types of agents and environments before beginning with basic search algorithms, so I would say it did. I'll see if I can find the pdf and I'll dm you
+=== END COMMENT 5 ===
+
+
+=== COMMENT 6 ===
+
+I don't know if she was out of her element, but she was not a great teacher for 116. Don't know if that carries over to classes she's more experienced with.
+=== END COMMENT 6 ===
+
+
+=== COMMENT 7 ===
+
+I took the course (Dr. Lynch's session) in Fall'19. The class does involve Prolog, but only a very shallow level - only one homework that requires you to do some programming. It does not involve Lisp at all. Guess it's may be in the 720 (AI 2) course? Not sure.
+
+Overall the course does introduce a lot of AI concepts, but they are somehow 'traditional' or 'theoretical' AI stuff... it does not cover more popular or practical stuff, like neural network, deep learning, data mining, etc. There are other courses in CSC well covered those. So if you focus is industrial-oriented, may be 520 is not a great choice.
+=== END COMMENT 7 ===
+
+
+=== COMMENT 8 ===
+
+What's another course you would recommend that covers more industry-oriented concepts to take the place of 520?
+=== END COMMENT 8 ===
+
+
+=== COMMENT 9 ===
+
+CSC 522 for data mining. CSC 591 has a neural network section though I have not taken it.
+=== END COMMENT 9 ===
+
+
+=== COMMENT 10 ===
+
+No don't take it. Waste of time
+=== END COMMENT 10 ===
+
+
+=== COMMENT 11 ===
+
+Id also like to know too
+=== END COMMENT 11 ===
+
+
+=== COMMENT 12 ===
+
+Curious to know if you took 520 and what it was like.
+=== END COMMENT 12 ===
+
+
+=== COMMENT 13 ===
+
+It's a very conceptual class. Probably depends who teaches it, but Dr. Lynch was quite hard. I'd recommend doing all the reading before classes. Even if you won't understand everything (the textbook can be hard to read) at least you'll know what you should pay attention to during the lecture. And start your homeworks early. You can get a lot of really good advice if you come to office hours. You don't really have to prepare for the class in general. The concepts are explained from lvl 0. But they can get hard pretty quick, so just pay attention to this class. Plus, a little bit of Python or Java programming skills are needed (but really quite basic stuff). You'll notice that you'll get lost in the class pretty often, but a lot of people did when I took the class, so don't worry.
+=== END COMMENT 13 ===
+
+
+=== COMMENT 14 ===
+
+This helps a lot! Thank you!
+=== END COMMENT 14 ===
