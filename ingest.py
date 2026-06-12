@@ -1,19 +1,28 @@
-from pathlib import Path
+import os
 import re
 
-DOCS_DIR = Path(__file__).parent / "documents"
+from config import DOCS_PATH
 
 _KNOWN_REVIEW_KEYS = {"course", "date", "quality", "difficulty", "grade", "would_take_again", "tags"}
 
 
 def load_documents():
-    """Read every .txt file in documents/ and return a list of (source_file, raw_text, file_metadata) tuples."""
+    """Read every .txt file in DOCS_PATH and return a list of (source_file, raw_text, file_metadata) tuples."""
     docs = []
-    for path in sorted(DOCS_DIR.glob("*.txt")):
-        raw = path.read_text(encoding="utf-8")
+    for filename in sorted(os.listdir(DOCS_PATH)):
+        if not filename.endswith(".txt"):
+            continue
+        filepath = os.path.join(DOCS_PATH, filename)
+        with open(filepath, encoding="utf-8") as f:
+            raw = f.read()
         file_meta = _parse_file_header(raw)
-        file_meta["source_file"] = path.name
-        docs.append((path.name, raw, file_meta))
+        file_meta["source_file"] = filename
+        docs.append((filename, raw, file_meta))
+
+    print(f"[load_documents] Loaded {len(docs)} documents.")
+    for source_file, raw_text, file_meta in docs:
+        print(f"  {source_file} | professor={file_meta.get('professor_name')} | course={file_meta.get('course')} | chars={len(raw_text)}")
+
     return docs
 
 
@@ -164,10 +173,10 @@ def _to_float(value):
 # ── quick smoke-test ──────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    chunks = chunk_documents()
+    docs = load_documents()
+    chunks = chunk_documents(docs)
     print(f"Total chunks: {len(chunks)}\n")
 
-    docs = load_documents()
     for source_file, raw_text, _ in docs:
         review_count = len(re.findall(r"=== REVIEW \d+ ===", raw_text))
         comment_count = len(re.findall(r"=== COMMENT \d+ ===", raw_text))
