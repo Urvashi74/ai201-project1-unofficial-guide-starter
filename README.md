@@ -250,7 +250,6 @@ I would increase `TOP_K` in `config.py` from 5 to 8–10 so that comparison quer
 
 > Professor Kemafor Ogan is often described as being underprepared for her classes, lacking teaching skills, and having difficulty explaining concepts clearly (source: RMP_Kemafor_Ogan.txt). Many students have expressed disappointment with her teaching style, citing that her classes are tedious to listen to and that the questions on exams are of a higher level of difficulty than what is taught in class (source: RMP_Kemafor_Ogan.txt). Some students have also reported that she lacks professionalism, citing an incident where she allegedly asked a student for a picture of their medicine bottle and purchase receipt, which was seen as a privacy violation (source: RMP_Kemafor_Ogan.txt). Additionally, her project documents and assignments have been described as confusing and unclear, with some students receiving feedback and grades late in the semester (source: RMP_Kemafor_Ogan.txt). Overall, the reviews suggest that Professor Kemafor Ogan is not well-regarded by her students, with one reviewer stating that she was the worst professor they had at NCSU (source: RMP_Kemafor_Ogan.txt).
 
-*Retrieved from: RMP_Kemafor_Ogan.txt*
 
 ---
 
@@ -258,7 +257,6 @@ I would increase `TOP_K` in `config.py` from 5 to 8–10 so that comparison quer
 
 > According to some student reviews of Sarah Heckman's CSC 216 class (source: RMP_Sarah_Heckman.txt), the exams are considered hard, with one review stating that "The exams are more difficult than they should be, especially the final" and another review mentioning that the class is "really just hard" with exams and project deadlines coinciding. However, another review of the same class (source: RMP_Sarah_Heckman.txt) describes the exams as "relatively easy" with "lots of partial credit", presenting a conflicting view. In her CSC 326 class (source: RMP_Sarah_Heckman.txt), the midterm and final exams are described as constituting a relatively small portion of the grade, but their difficulty is not commented on.
 
-*Retrieved from: RMP_Sarah_Heckman.txt*
 
 ---
 
@@ -276,9 +274,8 @@ The interface is a Gradio web app that runs at `http://localhost:7860` when you 
 
 **Input field:** A single text box labelled "Your question." You type a natural language question about any NCSU CS professor or course and press the "Ask" button or hit Enter.
 
-**Output fields:**
+**Output field:**
 - **Answer** — the LLM's grounded response with inline `(source: filename.txt)` citations after each claim
-- **Retrieved from** — a list of the source files that were pulled from ChromaDB for that query
 
 **Sample interaction transcript:**
 
@@ -299,9 +296,6 @@ Here are some specific tips:
 - Start projects as soon as they are released. Project 4 is the most time-consuming, so
   don't procrastinate (source: CSC_116.txt).
 - For labs, figure out the algorithm and design first before programming (source: CSC_116.txt).
-
-Retrieved from:
-• CSC_116.txt
 ```
 
 ---

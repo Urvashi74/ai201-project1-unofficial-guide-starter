@@ -26,10 +26,9 @@ def startup():
 
 def handle_query(question):
     if not question.strip():
-        return "", ""
+        return ""
     result = generate_answer(question)
-    sources = "\n".join(f"• {s}" for s in result["sources"])
-    return result["answer"], sources
+    return result["answer"]
 
 
 startup()
@@ -46,9 +45,8 @@ with gr.Blocks(title="NCSU CS Unofficial Guide") as demo:
     )
     btn = gr.Button("Ask", variant="primary")
     answer_box = gr.Textbox(label="Answer", lines=8)
-    sources_box = gr.Textbox(label="Retrieved from", lines=4)
 
-    btn.click(handle_query, inputs=inp, outputs=[answer_box, sources_box])
-    inp.submit(handle_query, inputs=inp, outputs=[answer_box, sources_box])
+    btn.click(handle_query, inputs=inp, outputs=[answer_box])
+    inp.submit(handle_query, inputs=inp, outputs=[answer_box])
 
 demo.launch(server_port=7860)
