@@ -60,7 +60,7 @@ I used one review or comment per chunk — variable size, roughly 150–1500 cha
 I used zero overlap. Each review is a self-contained student opinion, so there is no context that needs to flow across chunk boundaries. The only shared context (which professor or course a review belongs to) is handled through structured metadata fields rather than text overlap.
 
 **Why these choices fit your documents:**
-I chose delimiter-based chunking because I used Claude to prepare each document in `documents/` is already structured as discrete review or comment blocks. Each block is one student's opinion — the natural unit of retrieval. Splitting on these markers gives one sentiment, one topic, and one professor/course per vector, which produces a cleaner embedding signal than arbitrary fixed-length cuts. I stripped the per-review metadata lines (course, quality, difficulty, grade, etc.) from the embedded chunk text to reduce noise, keeping only the review body and tags.
+I chose delimiter-based chunking because each document in `documents/` is already structured as discrete review or comment blocks. Each block is one student's opinion — the natural unit of retrieval. Splitting on these markers gives one sentiment, one topic, and one professor/course per vector, which produces a cleaner embedding signal than arbitrary fixed-length cuts. I stripped the per-review metadata lines (course, quality, difficulty, grade, etc.) from the embedded chunk text to reduce noise, keeping only the review body and tags.
 
 **Final chunk count:**
 138 chunks across all 10 documents.
