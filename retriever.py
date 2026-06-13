@@ -80,7 +80,7 @@ def retrieve(query, filters=None, top_k=TOP_K):
 
     results = collection.query(**kwargs)
 
-    return [
+    chunks = [
         {"text": text, "metadata": meta, "distance": dist}
         for text, meta, dist in zip(
             results["documents"][0],
@@ -88,6 +88,21 @@ def retrieve(query, filters=None, top_k=TOP_K):
             results["distances"][0],
         )
     ]
+
+    print(f"\n{'=' * 60}")
+    print(f"Query: {query}")
+    if filters:
+        print(f"Filters: {filters}")
+    for i, r in enumerate(chunks, 1):
+        m = r["metadata"]
+        print(
+            f"  [{i}] dist={r['distance']:.4f} | "
+            f"{m['source_file']} #{m['chunk_index']} | "
+            f"prof={m['professor_name']} course={m['course_name']}"
+        )
+        print(f"      {r['text'][:120]}...")
+
+    return chunks
 
 
 # ── smoke-test ────────────────────────────────────────────────────────────────
