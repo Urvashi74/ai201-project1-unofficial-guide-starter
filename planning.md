@@ -98,11 +98,11 @@ Chunks are pretty small, one chunk has one opinion/review. 5 opinions are a good
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | Who's a better professor for CSC 326 — Sarah Heckman or John-Paul Ore? |  John-Paul Ore.. (followed by review summary of how he has a glowing review) |
-| 2 | How is Professor Kemafor Ogan? | Overall negative review reflected through all the complaints students have in their reviews. |
-| 3 | How is CSC 216 with professor Sarah Heckman? | Pretty positive, with some mixed answers since projects can be harder. |
-| 4 | Tips for CSC 116 with Dr. Schmidt? | Read the textbook, start projects the day they are released. |
-| 5 | Are Heckman's exams hard? | Mixed reviews. Some say its fair, others say its hard. |
+| 1 | Who's a better professor for CSC 326 — Sarah Heckman or John-Paul Ore? | John-Paul Ore. All his CSC 326 reviews are 5-star; students call him "GOAT-Paul Ore" and praise his energy and care. Heckman's CSC 326 reviews are mixed-to-negative (quality 1–3): lectures don't connect to labs, she can be dismissive, and she over-emphasizes process over engineering. |
+| 2 | How is Professor Kemafor Ogan? | Overwhelmingly negative — nearly all reviews give quality 1. Recurring complaints: disorganized and unprepared, unclear project specs, exam questions harder than what's taught, and arbitrary grading. One outlier (CSC 454) is positive, but students across CSC 440, 540, and 541 consistently say to avoid her. |
+| 3 | How is CSC 216 with professor Sarah Heckman? | Mostly positive — knowledgeable, passionate, detailed slides — but time-intensive. Projects take longer than estimated (start Part 2 early), the final has heavy code-writing by hand, and there is a minimum grade requirement. Worth it if you stay on top of deadlines. |
+| 4 | Tips for CSC 116 with Dr. Schmidt? | Read the full textbook (videos are just summaries), do Practice It problems, and start projects the day they are released — Project 4 is especially time-consuming. Design your algorithm on paper before coding. Schmidt is harder than Balik but prepares you better for CSC 216. |
+| 5 | Are Heckman's exams hard? | Mixed. Some say exams are fair with partial credit and that her detailed slides make studying easy. Others say they're harder than expected, especially the final which requires writing a lot of code by hand. Manageable if you attend lectures and study her slides, but the final can surprise you. |
 
 ---
 
@@ -214,7 +214,7 @@ Expected output:
 
 Verification:
 - Run on one file and check the number of chunks equals the number of `=== REVIEW N ===` blocks.
-- Spot-check 2–3 chunks: chunk text should be only the review body (no metadata lines), and metadata fields should be filled correctly.
+- Spot-check 5 random chunks: Each chunk should print out with it's size, along with it's source file name.
 - Confirm reviews missing optional fields (e.g., no `grade`) return `None` instead of crashing.
 
 **Milestone 4 — Embedding and retrieval:**
@@ -222,14 +222,14 @@ AI Tool used: Claude
 Input:
 - The "Retrieval Approach" section of this planning.md
 - The chunk object format from Milestone 3
-- Instruction: write `embed_and_store()` that embeds each chunk's text with `all-MiniLM-L6-v2` (via `sentence-transformers`) and stores it in a local ChromaDB collection with its metadata. Then write `retrieve(query, filters=None, top_k=5)` that embeds the query, applies an optional metadata `where` filter, and returns the top-5 most similar chunks.
+- Instruction: write `embed_and_store()` that embeds each chunk's text with `all-MiniLM-L6-v2` (via `sentence-transformers`) and stores it in a local ChromaDB collection with its metadata. Then write `retrieve(query, filters=None, top_k=TOP_K)` that embeds the query, applies an optional metadata `where` filter, and returns the top-5 most similar chunks. Import and use `CHROMA_COLLECTION, CHROME_PATH, TOP_K, EMBEDDING_MODEL` from config.py file.
 
 Expected output:
-- A persistent ChromaDB collection on disk with every chunk embedded.
+- A persistent ChromaDB collection on disk with every chunk embedded. 
 - A retrieval function returning the top-5 ranked chunks with text + metadata.
 
 Verification:
-- Run a known-answer query like "Sarah Heckman CSC 216" and confirm at least 3 of the top 5 are Heckman CSC 216 reviews.
+- Test retrieval with at least 3 of your 5 evaluation plan queries. For each, print the returned chunks and their distance scores.
 - Test metadata filtering: `retrieve("good professor", filters={"professor_name": "John-Paul Ore"})` should return only Ore reviews.
 - Try a nonsense query ("pineapple pizza") and confirm the system still returns 5 results without crashing.
 

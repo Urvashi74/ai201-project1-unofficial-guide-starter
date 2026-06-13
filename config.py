@@ -15,7 +15,7 @@ CHROMA_COLLECTION = "studentreviews"
 CHROMA_PATH = "./chroma_db"
 
 # --- Retrieval ---
-# N_RESULTS = 
+TOP_K = 5
 
 # --- Documents ---
 DOCS_PATH = "./documents"

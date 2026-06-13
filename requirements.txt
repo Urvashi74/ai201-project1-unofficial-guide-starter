@@ -1,10 +1,11 @@
 sentence-transformers==3.4.1
+tokenizers==0.22.2
 chromadb>=0.6.0
 groq==0.15.0
 python-dotenv==1.0.1
 
 # Query interface — add whichever you use for Milestone 5:
-# gradio>=6.9.0
+gradio>=6.9.0
 # streamlit>=1.40.0
 
 # Document ingestion — add if your documents/ folder contains .pdf files:

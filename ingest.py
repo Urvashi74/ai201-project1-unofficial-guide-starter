@@ -1,5 +1,6 @@
 import os
 import re
+import random
 
 from config import DOCS_PATH
 
@@ -185,12 +186,13 @@ if __name__ == "__main__":
         status = "OK" if len(file_chunks) == expected else f"MISMATCH (expected {expected})"
         print(f"{source_file}: {len(file_chunks)} chunks [{status}]")
 
-    print("\nSpot-check (first 3 chunks):")
-    for chunk in chunks[:3]:
+    print("\nSpot-check (5 random chunks):")
+    for chunk in random.sample(chunks, 5):
         m = chunk["metadata"]
         print(
-            f"  [{m['source_file']} #{m['chunk_index']}] "
+            f"\n  [{m['source_file']} #{m['chunk_index']}] "
             f"prof={m['professor_name']} course={m['course_name']} "
             f"quality={m['quality']} grade={m['grade']}"
         )
-        print(f"    text: {chunk['text'][:80]}...")
+        print(f"  size: {len(chunk['text'])} chars")
+        print(f"  text:\n{chunk['text']}")
