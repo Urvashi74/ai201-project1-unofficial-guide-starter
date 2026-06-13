@@ -63,7 +63,52 @@ I used zero overlap. Each review is a self-contained student opinion, so there i
 I chose delimiter-based chunking because I used Claude to prepare each document in `documents/` is already structured as discrete review or comment blocks. Each block is one student's opinion — the natural unit of retrieval. Splitting on these markers gives one sentiment, one topic, and one professor/course per vector, which produces a cleaner embedding signal than arbitrary fixed-length cuts. I stripped the per-review metadata lines (course, quality, difficulty, grade, etc.) from the embedded chunk text to reduce noise, keeping only the review body and tags.
 
 **Final chunk count:**
-138 chunks. 
+138 chunks across all 10 documents.
+
+**Sample chunks (5 random):**
+
+```
+[CSC_326.txt #8] prof=None course=CSC 326 quality=None grade=None
+size: 442 chars
+text:
+In CSC 326 the majority of points come from following their very specific processes and GitHub wiki
+requirements exactly as written. During one project, a group wasn't able to implement any of the
+requirements but still got an okay grade because they followed all the guidelines closely. A friend
+got a terrible grade even though their group's code worked flawlessly because they ignored the git
+guidelines. Follow all the guidelines exactly.
+
+[RMP_Kemafor_Ogan.txt #12] prof=Kemafor Anyanwu Ogan course=CSC 541 quality=1.0 grade=None
+size: 364 chars
+text:
+In-class activities and exams were pretty easy for advanced data structures. The struggle came with
+the projects (that were very obviously not written by Dr. Ogan, but rather by a teacher that actually
+taught the class). Dr. Ogan lacked teaching abilities -- could barely finish sentences, give any help
+when instructions were unclear, and came across as stuck up.
+
+[RMP_Kemafor_Ogan.txt #13] prof=Kemafor Anyanwu Ogan course=CSC 540 quality=1.0 grade=A
+size: 351 chars
+text:
+Professor Kemafor is often underprepared for her classes as we can see her get confused all the time.
+The concepts that she intends to explain are also not up to the mark as it's very tedious to listen
+to her class. The questions that are given in the exams are of higher level and difficulty compared
+to what is taught in class. Overall disappointed.
+
+[RMP_Sarah_Heckman.txt #10] prof=Sarah Heckman course=CSC 216 quality=4.0 grade=A
+size: 346 chars
+text:
+Dr. Heckman is a great lecturer and very enthusiastic, but the class overall is rough + fast-paced.
+The exams are more difficult than they should be, especially the final (too much writing code by
+hand). The projects take up lots of your time but are great at giving a hands-on experience, unlike
+the slides. Beware of the min grade requirement!!
+
+[RMP_Sarah_Heckman.txt #13] prof=Sarah Heckman course=CSC 216 quality=5.0 grade=A-
+size: 333 chars
+text:
+Dr. Heckman is the best professor you can take for 216. She is really passionate about Java data
+structures and techniques (especially iterators), and prepares you the best she can for the numerous
+projects and coding assignments. Start Part 2 of the projects as soon as you can -- you will spend
+more time than you expect debugging.
+```
 
 ---
 
@@ -80,6 +125,59 @@ I used `all-MiniLM-L6-v2` via `sentence-transformers`, run locally. I chose it b
 
 **Production tradeoff reflection:**
 The biggest issue I'd want to fix is sarcasm — reviews like "Hate is a strong word, but..." can fool MiniLM into treating them as neutral. A bigger model like `bge-large-en-v1.5` would handle that better. I'd also add BM25 keyword search alongside the vectors, since students search by exact terms like "CSC 540" or a professor's last name that pure vector search sometimes misses. Context length and multilingual support aren't concerns here — all reviews are short and in English.
+
+---
+
+## Retrieval test results 
+
+
+```
+============================================================
+Query: Who is a better professor for CSC 326 — Sarah Heckman or John-Paul Ore?
+  [1] dist=0.3547 | RMP_Sarah_Heckman.txt #14 | prof=Sarah Heckman course=CSC 216
+      Dr. Heckman is one of the best professors I've had so far in CSC. She is very approachable and knowledgeable. It's clear...
+  [2] dist=0.4357 | RMP_Sarah_Heckman.txt #17 | prof=Sarah Heckman course=CSC 230
+      Dr. Heckman is a fantastic instructor. You can tell she really has a passion for what she teaches, because whenever she ...
+  [3] dist=0.4753 | RMP_JohnPaul_Ore.txt #2 | prof=John-Paul Ore course=CSC 326
+      Dr. Ore is one of the few gems in CSC. Dr. Ore genuinely cares for his students. Quizzes are easy, and labs are manageab...
+  [4] dist=0.4786 | RMP_Sarah_Heckman.txt #6 | prof=Sarah Heckman course=CSC 216
+      Dr. Heckman is a good lecturer but she moves really fast. However, the class is really just hard. There's project milest...
+  [5] dist=0.4873 | RMP_Sarah_Heckman.txt #9 | prof=Sarah Heckman course=CSC 216
+      Dr. Heckman was very knowledgeable and a great lecturer. She went over notes and information in lectures and gave us tip...
+```
+
+Results [1], [2], [4], [5] are Heckman reviews — relevant because her name is in the query. However, all four are from CSC 216 and CSC 230, not CSC 326. Only result [3] is actually about Ore in CSC 326, which is what the query is asking about. This is the retrieval bias problem: Heckman has more reviews overall so her chunks dominate, and the model doesn't have enough CSC 326-specific context for both professors to make a fair comparison.
+
+```
+============================================================
+Query: How is Professor Kemafor Ogan?
+  [1] dist=0.4068 | RMP_Kemafor_Ogan.txt #13 | prof=Kemafor Anyanwu Ogan course=CSC 540
+      Professor Kemafor is often underprepared for her classes as we can see her get confused all the time. The concepts that ...
+  [2] dist=0.4923 | RMP_Kemafor_Ogan.txt #2 | prof=Kemafor Anyanwu Ogan course=CSC 540
+      Many students take Prof. Kemafor's class only to fulfill credit requirements, not because she's a great professor. She l...
+  [3] dist=0.4980 | RMP_Kemafor_Ogan.txt #11 | prof=Kemafor Anyanwu Ogan course=CSC 540
+      Dr. Ogan and her TAs are absolutely awful. Dr. Ogan seemed to be underprepared for her classes and did not follow her lo...
+  [4] dist=0.4985 | RMP_Kemafor_Ogan.txt #17 | prof=Kemafor Anyanwu Ogan course=CSC 540
+      Dr. Ogan was the worst professor that I had at NCSU. I highly discourage from taking any course with her. She forgets wh...
+  [5] dist=0.5510 | RMP_Kemafor_Ogan.txt #12 | prof=Kemafor Anyanwu Ogan course=CSC 541
+```
+
+All 5 results are Ogan reviews — exactly right. The query mentions her name directly, so the embedding similarity is high across all her reviews. Distances are tight (0.40–0.55), meaning the model is confident these are the most relevant chunks. This query worked cleanly.
+
+```
+============================================================
+Query: pineapple pizza
+  [1] dist=0.7800 | RMP_JohnPaul_Ore.txt #6 | prof=John-Paul Ore course=CSC 326
+      Gave us donuts and was very nice to all students. Very enthusiastic in all lectures. Known to some as GOAT-Paul Ore for ...
+  [2] dist=0.7970 | RMP_JohnPaul_Ore.txt #5 | prof=John-Paul Ore course=CSC 326
+      Professor GOAT-Paul Ore is the professor that you have to take for Software Engineering. He is extremely energetic and k...
+  [3] dist=0.8696 | RMP_JohnPaul_Ore.txt #4 | prof=John-Paul Ore course=CSC 326
+      His lectures were entertaining and informative and it was easy to tell that he cared about the students. He was very app...
+  [4] dist=0.8834 | CSC_520.txt #2 | prof= course=CSC 520
+      Her accent is Iranian, I think...
+  [5] dist=0.8901 | CSC_116.txt #17 | prof= course=CSC 116
+      Unlike high school, you don't get to skim through CSC 116 by having a basic understanding of coding logic. You need to r...
+```
 
 ---
 
@@ -143,6 +241,68 @@ I expected this answer to go wrong due to model bias based on retrieval of more 
 
 **What you would change to fix it:**
 I would increase `TOP_K` in `config.py` from 5 to 8–10 so that comparison queries have room to surface reviews from both professors. A more robust fix would be a pre-retrieval step that detects when a query names two professors, runs two separate filtered retrievals (one per professor), and merges the results before passing to the LLM — guaranteeing balanced context regardless of embedding similarity scores.
+
+---
+
+## Example Responses
+
+**Response 1 — "How is Professor Kemafor Ogan?"**
+
+> Professor Kemafor Ogan is often described as being underprepared for her classes, lacking teaching skills, and having difficulty explaining concepts clearly (source: RMP_Kemafor_Ogan.txt). Many students have expressed disappointment with her teaching style, citing that her classes are tedious to listen to and that the questions on exams are of a higher level of difficulty than what is taught in class (source: RMP_Kemafor_Ogan.txt). Some students have also reported that she lacks professionalism, citing an incident where she allegedly asked a student for a picture of their medicine bottle and purchase receipt, which was seen as a privacy violation (source: RMP_Kemafor_Ogan.txt). Additionally, her project documents and assignments have been described as confusing and unclear, with some students receiving feedback and grades late in the semester (source: RMP_Kemafor_Ogan.txt). Overall, the reviews suggest that Professor Kemafor Ogan is not well-regarded by her students, with one reviewer stating that she was the worst professor they had at NCSU (source: RMP_Kemafor_Ogan.txt).
+
+*Retrieved from: RMP_Kemafor_Ogan.txt*
+
+---
+
+**Response 2 — "Are Heckman's exams hard?"**
+
+> According to some student reviews of Sarah Heckman's CSC 216 class (source: RMP_Sarah_Heckman.txt), the exams are considered hard, with one review stating that "The exams are more difficult than they should be, especially the final" and another review mentioning that the class is "really just hard" with exams and project deadlines coinciding. However, another review of the same class (source: RMP_Sarah_Heckman.txt) describes the exams as "relatively easy" with "lots of partial credit", presenting a conflicting view. In her CSC 326 class (source: RMP_Sarah_Heckman.txt), the midterm and final exams are described as constituting a relatively small portion of the grade, but their difficulty is not commented on.
+
+*Retrieved from: RMP_Sarah_Heckman.txt*
+
+---
+
+**Response 3 — Out-of-scope query: "What do students think of CSC 999?"**
+
+> I couldn't find an answer to that in the loaded reviews. I can only answer from the student reviews I have for these NCSU CS professors and courses: Sarah Heckman, John-Paul Ore, Kemafor Ogan, Thomas Price, Vincent Freeh, CSC 116, CSC 216, CSC 226, CSC 326, and CSC 520. Try rephrasing your question, or make sure you're asking about one of those.
+
+The system returned the exact `FALLBACK_MESSAGE` and did not attempt to generate a made-up answer. This confirms grounding is working — when no relevant reviews exist, the model refuses rather than hallucinating.
+
+---
+
+## Query Interface
+
+The interface is a Gradio web app that runs at `http://localhost:7860` when you run `python app.py`.
+
+**Input field:** A single text box labelled "Your question." You type a natural language question about any NCSU CS professor or course and press the "Ask" button or hit Enter.
+
+**Output fields:**
+- **Answer** — the LLM's grounded response with inline `(source: filename.txt)` citations after each claim
+- **Retrieved from** — a list of the source files that were pulled from ChromaDB for that query
+
+**Sample interaction transcript:**
+
+```
+User: Tips for CSC 116 with Dr. Schmidt?
+
+Answer:
+Based on student reviews, here are some tips for CSC 116 with Dr. Schmidt:
+
+Dr. Schmidt goes over the foundations well and if you do well in her class, you're set
+up very well for CSC 216 (source: CSC_116.txt). However, if you have little programming
+experience, you might want to be cautious as the class can be challenging (source: CSC_116.txt).
+
+Here are some specific tips:
+- Read the textbook thoroughly — exams require full knowledge of Java principles and her
+  videos are essentially just summaries of the textbook reading (source: CSC_116.txt).
+- Do as many Practice It problems as possible for tested material (source: CSC_116.txt).
+- Start projects as soon as they are released. Project 4 is the most time-consuming, so
+  don't procrastinate (source: CSC_116.txt).
+- For labs, figure out the algorithm and design first before programming (source: CSC_116.txt).
+
+Retrieved from:
+• CSC_116.txt
+```
 
 ---
 
