@@ -54,12 +54,16 @@ Rate My Professors pages, Reddit threads, and word-of-mouth, with no single sear
      - What your final chunk count was across all documents -->
 
 **Chunk size:**
+I used one review or comment per chunk — variable size, roughly 150–1500 characters — with no fixed character cap. Chunks are bounded by the `=== REVIEW N ===` / `=== COMMENT N ===` delimiters already present in each source file.
 
 **Overlap:**
+I used zero overlap. Each review is a self-contained student opinion, so there is no context that needs to flow across chunk boundaries. The only shared context (which professor or course a review belongs to) is handled through structured metadata fields rather than text overlap.
 
 **Why these choices fit your documents:**
+I chose delimiter-based chunking because I used Claude to prepare each document in `documents/` is already structured as discrete review or comment blocks. Each block is one student's opinion — the natural unit of retrieval. Splitting on these markers gives one sentiment, one topic, and one professor/course per vector, which produces a cleaner embedding signal than arbitrary fixed-length cuts. I stripped the per-review metadata lines (course, quality, difficulty, grade, etc.) from the embedded chunk text to reduce noise, keeping only the review body and tags.
 
 **Final chunk count:**
+138 chunks. 
 
 ---
 
@@ -72,8 +76,10 @@ Rate My Professors pages, Reddit threads, and word-of-mouth, with no single sear
      latency, and local vs. API-hosted. -->
 
 **Model used:**
+I used `all-MiniLM-L6-v2` via `sentence-transformers`, run locally. I chose it because it performs well on short English text — my reviews average 300–500 characters — and it's fast and free to run without any API calls.
 
 **Production tradeoff reflection:**
+The biggest issue I'd want to fix is sarcasm — reviews like "Hate is a strong word, but..." can fool MiniLM into treating them as neutral. A bigger model like `bge-large-en-v1.5` would handle that better. I'd also add BM25 keyword search alongside the vectors, since students search by exact terms like "CSC 540" or a professor's last name that pure vector search sometimes misses. Context length and multilingual support aren't concerns here — all reviews are short and in English.
 
 ---
 
@@ -87,8 +93,10 @@ Rate My Professors pages, Reddit threads, and word-of-mouth, with no single sear
      the mechanism. -->
 
 **System prompt grounding instruction:**
+I used the following system prompt to enforce grounding: "Answer the user's question using ONLY the student reviews provided in the REVIEWS CONTEXT block of the user message. Treat that text as your single source of truth. Do NOT use any outside or prior knowledge about professors, courses, or NCSU, even if you are confident you know the answer. Do NOT infer, assume, or fill in details that are not explicitly stated in the provided reviews." I also defined a `FALLBACK_MESSAGE` constant with the exact text the model must return word-for-word when the reviews don't cover the question — this prevents the model from generating a plausible-sounding answer from its training data instead of admitting it doesn't know.
 
 **How source attribution is surfaced in the response:**
+I structured each retrieved chunk in the user message with a header in the format `[RMP_Sarah_Heckman.txt | prof=Sarah Heckman | course=CSC 216]` so the filename is visible to the model. The system prompt then instructs it to cite the filename inline immediately after any claim, using the format `(source: RMP_Sarah_Heckman.txt)`. I also programmatically collect the source filenames from the retrieved chunks in `generate_answer()` and return them as a separate `sources` list, which the Gradio UI displays in a dedicated "Retrieved from" box — so attribution is guaranteed structurally, not left entirely up to the LLM.
 
 ---
 
@@ -100,11 +108,11 @@ Rate My Professors pages, Reddit threads, and word-of-mouth, with no single sear
 
 | # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------------------|-------------------|-------------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Who's a better professor for CSC 326 — Sarah Heckman or John-Paul Ore? | John-Paul Ore. All his CSC 326 reviews are 5-star; students call him "GOAT-Paul Ore" and praise his energy and care. Heckman's CSC 326 reviews are mixed-to-negative (quality 1–3): lectures don't connect to labs, she can be dismissive, and she over-emphasizes process over engineering. | I couldn't find an answer to that in the loaded reviews. I can only answer from the student reviews I have for these NCSU CS professors and courses: Sarah Heckman, John-Paul Ore, Kemafor Ogan, Thomas Price, Vincent Freeh, CSC 116, CSC 216, CSC 226, CSC 326, and CSC 520. Try rephrasing your question, or make sure you're asking about one of those. | Off-target | Inaccurate |
+| 2 | How is Professor Kemafor Ogan? | Overwhelmingly negative — nearly all reviews give quality 1. Recurring complaints: disorganized and unprepared, unclear project specs, exam questions harder than what's taught, and arbitrary grading. One outlier (CSC 454) is positive, but students across CSC 440, 540, and 541 consistently say to avoid her. | Professor Kemafor Ogan is often described as being underprepared for her classes, lacking teaching skills, and having difficulty explaining concepts clearly (source: RMP_Kemafor_Ogan.txt). Many students have expressed disappointment with her teaching style, citing that her classes are tedious to listen to and that the questions on exams are of a higher level of difficulty than what is taught in class (source: RMP_Kemafor_Ogan.txt). Some students have also reported that she lacks professionalism, citing an incident where she allegedly asked a student for a picture of their medicine bottle and purchase receipt, which was seen as a privacy violation (source: RMP_Kemafor_Ogan.txt). Additionally, her project documents and assignments have been described as confusing and unclear, with some students receiving feedback and grades late in the semester (source: RMP_Kemafor_Ogan.txt). Overall, the reviews suggest that Professor Kemafor Ogan is not well-regarded by her students, with one reviewer stating that she was the worst professor they had at NCSU (source: RMP_Kemafor_Ogan.txt). | Relevant | Accurate |
+| 3 | How is CSC 216 with professor Sarah Heckman? | Mostly positive — knowledgeable, passionate, detailed slides — but time-intensive. Projects take longer than estimated (start Part 2 early), the final has heavy code-writing by hand, and there is a minimum grade requirement. Worth it if you stay on top of deadlines. | According to student reviews of Sarah Heckman (source: RMP_Sarah_Heckman.txt), Dr. Heckman is one of the best professors for CSC 216, being very approachable and knowledgeable, and it's clear she wants students to understand how to write good code for industry. Students are advised to start on the projects early and study lots for the tests, as the final has lots of code writing on it (source: RMP_Sarah_Heckman.txt). Another student also took her class for CSC 216 and recommends doing the same, indicating a positive experience (source: RMP_Sarah_Heckman.txt). | Relevant | Accurate |
+| 4 | Tips for CSC 116 with Dr. Schmidt? | Read the full textbook (videos are just summaries), do Practice It problems, and start projects the day they are released — Project 4 is especially time-consuming. Design your algorithm on paper before coding. Schmidt is harder than Balik but prepares you better for CSC 216. | Based on the reviews, it seems that Dr. Schmidt is a good option for CSC 116, especially if you want to be well-prepared for CSC 216 (source: CSC_116.txt). One tip is that she goes over the foundations well, which can set you up for success in future courses (source: CSC_116.txt). However, it's also mentioned that if you have little programming experience, you might want to avoid her, as the class may be challenging (source: CSC_116.txt). Additionally, be prepared for a decent amount of work in the class (source: CSC_116.txt). | Relevant | Accurate |
+| 5 | Are Heckman's exams hard? | Mixed. Some say exams are fair with partial credit and that her detailed slides make studying easy. Others say they're harder than expected, especially the final which requires writing a lot of code by hand. Manageable if you attend lectures and study her slides, but the final can surprise you. | According to some student reviews of Sarah Heckman's CSC 216 class (source: RMP_Sarah_Heckman.txt), the exams are considered hard, with one review stating that "The exams are more difficult than they should be, especially the final" and another review mentioning that the class is "really just hard" with exams and project deadlines coinciding. However, another review of the same class (source: RMP_Sarah_Heckman.txt) describes the exams as "relatively easy" with "lots of partial credit", presenting a conflicting view. In her CSC 326 class (source: RMP_Sarah_Heckman.txt), the midterm and final exams are described as constituting a relatively small portion of the grade, but their difficulty is not commented on. | Relevant | Accurate |
 
 **Retrieval quality:** Relevant / Partially relevant / Off-target  
 **Response accuracy:** Accurate / Partially accurate / Inaccurate
@@ -125,12 +133,16 @@ Rate My Professors pages, Reddit threads, and word-of-mouth, with no single sear
      results from an unrelated review" is an explanation. -->
 
 **Question that failed:**
+Who's a better professor for CSC 326 — Sarah Heckman or John-Paul Ore?
 
 **What the system returned:**
+I couldn't find an answer to that in the loaded reviews. I can only answer from the student reviews I have for these NCSU CS professors and courses: Sarah Heckman, John-Paul Ore, Kemafor Ogan, Thomas Price, Vincent Freeh, CSC 116, CSC 216, CSC 226, CSC 326, and CSC 520. Try rephrasing your question, or make sure you're asking about one of those.
 
 **Root cause (tied to a specific pipeline stage):**
+I expected this answer to go wrong due to model bias based on retrieval of more answers for one professor over the other, which is still happening in retrieval stage. We have top_k = 5, so the retrieval is returning 4 Heckman reviews and only 1 Ore review. The LLM is determining that it can't make a CSC 326 specific comparison because of this and is triggering the fallback response. It's possible that the system prompt's grounding instruction is also too tight, and doesn't really explain this case.
 
 **What you would change to fix it:**
+I would increase `TOP_K` in `config.py` from 5 to 8–10 so that comparison queries have room to surface reviews from both professors. A more robust fix would be a pre-retrieval step that detects when a query names two professors, runs two separate filtered retrievals (one per professor), and merges the results before passing to the LLM — guaranteeing balanced context regardless of embedding similarity scores.
 
 ---
 
@@ -140,8 +152,10 @@ Rate My Professors pages, Reddit threads, and word-of-mouth, with no single sear
      Answer both questions with at least 2–3 sentences each. -->
 
 **One way the spec helped you during implementation:**
+Usually, I have always worked with having an architecture design, and then implemented the project in stages. But having a detailed spec helped me keep in track about how each stage can be implemented in a more closed detail. I was able to use the spec in `planning.md` to prompt Claude to implement the files like `ingest.py`, `app.py`, `retriever.py`, `generator.py` . This was overall very helpful in a quicker coding with Claude Code. I think if I had to develop this on my own, I'd need much more time.
 
 **One way your implementation diverged from the spec, and why:**
+While building `generator.py` I ended up not using the `filters` parameter in `retrieve()` function even though I had added it to the planning.md file. The reason being, this was getting to tightly coupled and was adding complexity which might not even work. In a scenario where the question might use a nickname of the professor or the course is worded differently the filters we have set wouldn't work out. 
 
 ---
 
@@ -156,14 +170,18 @@ Rate My Professors pages, Reddit threads, and word-of-mouth, with no single sear
      chunk_text(). It returned a function using a fixed character split. I overrode the
      chunk size from 500 to 200 because my documents are short reviews, not long guides." -->
 
-**Instance 1**
+**Instance 1 — Implementing `ingest.py`**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+I gave Claude the Chunking Strategy section from `planning.md` and two sample files (`RMP_JohnPaul_Ore.txt` and `CSC_116.txt`) so it could see both the RMP review format and Reddit comment format. I asked it to write `load_documents()` and `chunk_documents()`.
 
-**Instance 2**
+Claude produced both functions — `load_documents()` using `pathlib.glob`, `chunk_documents()` splitting on `=== REVIEW N ===` / `=== COMMENT N ===` with regex, and a metadata parser that returns `None` for missing fields. It also included a smoke-test that verified chunk counts.
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+I then directed it to replace `pathlib` with `os.listdir(DOCS_PATH)` importing from `config.py`, and changed the smoke-test to print 5 random chunks with full text and character count instead of just the first 3.
+
+**Instance 2 — Building `retriever.py` and fixing distance scores**
+
+I gave Claude the Retrieval Approach section from `planning.md` and the chunk format from `ingest.py`, and asked it to implement `embed_and_store()` and `retrieve()` using `sentence-transformers` and ChromaDB.
+
+Claude produced both functions with a smoke-test covering 5 queries, a metadata filter check, and a nonsense query.
+
+After running it, I noticed the distance scores looked high (0.7–1.1) against a warning that "scores above 0.6–0.7 indicate weak matches." I asked Claude to investigate. It found that ChromaDB defaults to L2 distance (range 0–2) instead of cosine distance (range 0–1), which was inflating the numbers. I overrode the collection to use `{"hnsw:space": "cosine"}`, deleted and re-embedded, and scores dropped to 0.27–0.55 for strong matches.

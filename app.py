@@ -3,7 +3,9 @@ import gradio as gr
 from ingest import load_documents, chunk_documents
 from retriever import embed_and_store, _get_collection
 from generator import generate_answer
+import warnings
 
+warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 def startup():
     """Run ingestion, chunking, and embedding (skips embedding if store already populated)."""

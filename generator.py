@@ -24,15 +24,16 @@ SYSTEM_PROMPT = (
     "even if you are confident you know the answer.\n"
     "- Do NOT infer, assume, or fill in details that are not explicitly stated "
     "in the provided reviews.\n"
-    "- If the answer is not fully contained in the provided reviews, reply with "
-    "exactly the following message and nothing else:\n"
+    "- If the reviews do not contain enough information to meaningfully address "
+    "the question, reply with exactly the following message and nothing else:\n"
     f'    "{FALLBACK_MESSAGE}"\n\n'
-    "When you can answer, name the professor or course from the source you used "
-    "(e.g. 'According to student reviews of Sarah Heckman [1], ...' or "
-    "'Students in CSC 326 [2] report ...'). Use only the professor or course name "
-    "shown in the [Source N — <label>] header of the review you relied on; "
-    "do not invent or guess names. If relevant sources span more than one "
-    "professor or course, name each alongside the part of the answer it supports.\n\n"
+    "When you can answer, cite the source file inline using the format "
+    "(source: <filename>) immediately after any claim you make — for example: "
+    "'According to student reviews of Sarah Heckman (source: RMP_Sarah_Heckman.txt), "
+    "exams focus heavily on code writing by hand.' "
+    "Use only the filename shown in the [<filename> | ...] header of the review "
+    "you relied on. Do not invent or guess filenames. If relevant sources span "
+    "more than one file, cite each file alongside the part of the answer it supports.\n\n"
     "A correct \"that isn't in the loaded reviews\" is always better than a "
     "confident answer drawn from outside the provided text."
 )
@@ -58,10 +59,9 @@ def generate_answer(question):
     # Build numbered context block; label carries professor/course so the LLM
     # can name the source in its answer without guessing.
     context_lines = []
-    for i, chunk in enumerate(chunks, 1):
+    for chunk in chunks:
         m = chunk["metadata"]
-        label = m["professor_name"] or m["course_name"] or m["source_file"]
-        header = f"[Source {i} — {label}]"
+        header = f"[{m['source_file']} | prof={m['professor_name'] or 'N/A'} | course={m['course_name'] or 'N/A'}]"
         context_lines.append(f"{header}\n{chunk['text']}")
     context = "\n\n".join(context_lines)
 
